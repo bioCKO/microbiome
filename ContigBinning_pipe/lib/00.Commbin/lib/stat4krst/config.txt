@@ -1,0 +1,13 @@
+#####################
+####software path
+#####################
+
+DIR_PAC : "DIR_Bin";
+DIR_SoftPub : "/PUBLIC/software/public";
+DIR_SoftMicro : "/PUBLIC/software/MICRO";
+
+##common software
+#software
+R                   = DIR_SoftPub/System/R-3.0.3/bin/R
+gce                 = DIR_SoftMicro/gce-1.0.0/gce
+Genomeye            = DIR_SoftMicro/Genomeye/Genomeye

@@ -1,0 +1,14 @@
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="true">
+    <clade />
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="title" ref="A:1">STM</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="class_legend_marker_size" ref="A:1">1.5</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="class_legend_font_size" ref="A:1">10</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="branch_bracket_depth" ref="A:1">0.8</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="title_font_size" ref="A:1">15</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="clade_separation" ref="A:1">0.5</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="branch_bracket_width" ref="A:1">0.2</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="annotation_legend_font_size" ref="A:1">10</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="ignore_branch_len" ref="A:1">1</property>
+  </phylogeny>
+</phyloxml>

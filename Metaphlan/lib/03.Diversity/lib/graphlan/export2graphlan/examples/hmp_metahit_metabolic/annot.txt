@@ -1,0 +1,2796 @@
+title	Metabolic pathways
+title_font_size	15
+
+clade_separation	0.5
+branch_bracket_depth	0.8
+branch_bracket_width	0.2
+annotation_legend_font_size	10
+class_legend_font_size	10
+class_legend_marker_size	1.5
+
+METAHIT	annotation	METAHIT
+METAHIT	clade_marker_color	#2d19ff
+METAHIT	clade_marker_size	40
+
+HMP	annotation	HMP
+HMP	clade_marker_color	#29cc36
+HMP	clade_marker_size	40
+
+Glycerophospholipid_metabolism	clade_marker_size	128.314932928
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Glycerophospholipid_metabolism	clade_marker_color	#2717e1
+Glycerophospholipid_metabolism	annotation_background_color	#2717e1
+Glycerophospholipid_metabolism	annotation	*:Glycerophospholipid metabolism
+Glycerophospholipid_metabolism	annotation_font_size	9
+
+Methane_metabolism	clade_marker_size	109.755953803
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Inositol_phosphate_metabolism	clade_marker_size	79.6064370176
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Phosphonate_and_phosphinate_metabolism	clade_marker_size	76.3549595975
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Other_Amino_Acids	annotation_background_color	#00ff80
+Metabolism_of_Other_Amino_Acids	annotation	Metabolism of Other Amino Acids
+Metabolism_of_Other_Amino_Acids	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Alanine_aspartate_and_glutamate_metabolism	clade_marker_size	184.682786507
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Alanine_aspartate_and_glutamate_metabolism	clade_marker_color	#2c19fe
+Alanine_aspartate_and_glutamate_metabolism	annotation_background_color	#2c19fe
+Alanine_aspartate_and_glutamate_metabolism	annotation	*:Alanine aspartate and glutamate metabolism
+Alanine_aspartate_and_glutamate_metabolism	annotation_font_size	9
+
+Riboflavin_metabolism	clade_marker_size	145.527311609
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Type_I_diabetes_mellitus	clade_marker_size	59.9783608389
+Type_I_diabetes_mellitus	clade_marker_color	#24b22f
+Type_I_diabetes_mellitus	annotation_background_color	#24b22f
+Type_I_diabetes_mellitus	annotation	*:Type I diabetes mellitus
+Type_I_diabetes_mellitus	annotation_font_size	9
+
+Nicotinate_and_nicotinamide_metabolism	clade_marker_size	162.817591491
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Nicotinate_and_nicotinamide_metabolism	clade_marker_color	#1c10a0
+Nicotinate_and_nicotinamide_metabolism	annotation_background_color	#1c10a0
+Nicotinate_and_nicotinamide_metabolism	annotation	*:Nicotinate and nicotinamide metabolism
+Nicotinate_and_nicotinamide_metabolism	annotation_font_size	9
+
+Sulfur_metabolism	clade_marker_size	136.89927782
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Sulfur_metabolism	clade_marker_color	#2a18ed
+Sulfur_metabolism	annotation_background_color	#2a18ed
+Sulfur_metabolism	annotation	*:Sulfur metabolism
+Sulfur_metabolism	annotation_font_size	9
+
+Lysine_degradation	clade_marker_size	72.7977500081
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Peroxisome	clade_marker_size	60.7570760975
+Sphingolipid_metabolism	clade_marker_size	84.5961117537
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Glycosphingolipid_biosynthesis_ganglio_series	clade_marker_size	59.3587168134
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Glycosphingolipid_biosynthesis_ganglio_series	clade_marker_color	#23b12f
+Glycosphingolipid_biosynthesis_ganglio_series	annotation_background_color	#23b12f
+Glycosphingolipid_biosynthesis_ganglio_series	annotation	*:Glycosphingolipid biosynthesis ganglio series
+Glycosphingolipid_biosynthesis_ganglio_series	annotation_font_size	9
+
+Phosphotransferase_system_PTS_	clade_marker_size	137.035944476
+Environmental_Information_Processing	annotation_background_color	#a52de0
+Environmental_Information_Processing	annotation	Environmental Information Processing
+Environmental_Information_Processing	annotation_font_size	12
+
+Membrane_Transport	annotation_background_color	#a52de0
+Membrane_Transport	annotation	Membrane Transport
+Membrane_Transport	annotation_font_size	10
+
+Phosphotransferase_system_PTS_	clade_marker_color	#166f1e
+Phosphotransferase_system_PTS_	annotation_background_color	#166f1e
+Phosphotransferase_system_PTS_	annotation	*:Phosphotransferase system PTS 
+Phosphotransferase_system_PTS_	annotation_font_size	9
+
+Other_glycan_degradation	clade_marker_size	154.650202648
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+N_Glycan_biosynthesis	clade_marker_size	54.4609698365
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Selenocompound_metabolism	clade_marker_size	174.073590517
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Other_Amino_Acids	annotation_background_color	#00ff80
+Metabolism_of_Other_Amino_Acids	annotation	Metabolism of Other Amino Acids
+Metabolism_of_Other_Amino_Acids	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Selenocompound_metabolism	clade_marker_color	#22ab2e
+Selenocompound_metabolism	annotation_background_color	#22ab2e
+Selenocompound_metabolism	annotation	*:Selenocompound metabolism
+Selenocompound_metabolism	annotation_font_size	9
+
+Phosphatidylinositol_signaling_system	clade_marker_size	52.8079684964
+Environmental_Information_Processing	annotation_background_color	#a52de0
+Environmental_Information_Processing	annotation	Environmental Information Processing
+Environmental_Information_Processing	annotation_font_size	12
+
+Phosphatidylinositol_signaling_system	clade_marker_color	#27c534
+Phosphatidylinositol_signaling_system	annotation_background_color	#27c534
+Phosphatidylinositol_signaling_system	annotation	*:Phosphatidylinositol signaling system
+Phosphatidylinositol_signaling_system	annotation_font_size	9
+
+Nitrogen_metabolism	clade_marker_size	117.785000386
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Lysine_biosynthesis	clade_marker_size	180.041465335
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Lysine_biosynthesis	clade_marker_color	#1e11ac
+Lysine_biosynthesis	annotation_background_color	#1e11ac
+Lysine_biosynthesis	annotation	*:Lysine biosynthesis
+Lysine_biosynthesis	annotation_font_size	9
+
+Mismatch_repair	clade_marker_size	190.159029122
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Replication_and_Repair	annotation_background_color	#ffea00
+Replication_and_Repair	annotation	Replication and Repair
+Replication_and_Repair	annotation_font_size	10
+
+Mismatch_repair	clade_marker_color	#1c10a1
+Mismatch_repair	annotation_background_color	#1c10a1
+Mismatch_repair	annotation	*:Mismatch repair
+Mismatch_repair	annotation_font_size	9
+
+Photosynthesis	clade_marker_size	82.5710178473
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Photosynthesis	clade_marker_color	#1b8824
+Photosynthesis	annotation_background_color	#1b8824
+Photosynthesis	annotation	*:Photosynthesis
+Photosynthesis	annotation_font_size	9
+
+Glycine_serine_and_threonine_metabolism	clade_marker_size	156.423377853
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Oxidative_phosphorylation	clade_marker_size	115.849956935
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Homologous_recombination	clade_marker_size	187.724329177
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Replication_and_Repair	annotation_background_color	#ffea00
+Replication_and_Repair	annotation	Replication and Repair
+Replication_and_Repair	annotation_font_size	10
+
+Homologous_recombination	clade_marker_color	#1b0f98
+Homologous_recombination	annotation_background_color	#1b0f98
+Homologous_recombination	annotation	*:Homologous recombination
+Homologous_recombination	annotation_font_size	9
+
+Vitamin_B6_metabolism	clade_marker_size	165.95574846
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Vitamin_B6_metabolism	clade_marker_color	#2415ce
+Vitamin_B6_metabolism	annotation_background_color	#2415ce
+Vitamin_B6_metabolism	annotation	*:Vitamin B6 metabolism
+Vitamin_B6_metabolism	annotation_font_size	9
+
+Linoleic_acid_metabolism	clade_marker_size	75.6678067014
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Linoleic_acid_metabolism	clade_marker_color	#1d9227
+Linoleic_acid_metabolism	annotation_background_color	#1d9227
+Linoleic_acid_metabolism	annotation	*:Linoleic acid metabolism
+Linoleic_acid_metabolism	annotation_font_size	9
+
+Fatty_acid_biosynthesis	clade_marker_size	181.802580145
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Bacterial_secretion_system	clade_marker_size	147.019917567
+Environmental_Information_Processing	annotation_background_color	#a52de0
+Environmental_Information_Processing	annotation	Environmental Information Processing
+Environmental_Information_Processing	annotation_font_size	12
+
+Membrane_Transport	annotation_background_color	#a52de0
+Membrane_Transport	annotation	Membrane Transport
+Membrane_Transport	annotation_font_size	10
+
+Bacterial_secretion_system	clade_marker_color	#1f12b1
+Bacterial_secretion_system	annotation_background_color	#1f12b1
+Bacterial_secretion_system	annotation	*:Bacterial secretion system
+Bacterial_secretion_system	annotation_font_size	9
+
+Tetracycline_biosynthesis	clade_marker_size	75.7895707508
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Terpenoids_and_Polyketides	annotation_background_color	#00ff80
+Metabolism_of_Terpenoids_and_Polyketides	annotation	Metabolism of Terpenoids and Polyketides
+Metabolism_of_Terpenoids_and_Polyketides	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Tetracycline_biosynthesis	clade_marker_color	#1e9427
+Tetracycline_biosynthesis	annotation_background_color	#1e9427
+Tetracycline_biosynthesis	annotation	*:Tetracycline biosynthesis
+Tetracycline_biosynthesis	annotation_font_size	9
+
+Protein_export	clade_marker_size	196.145702536
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Protein_export	clade_marker_color	#150c79
+Protein_export	annotation_background_color	#150c79
+Protein_export	annotation	*:Protein export
+Protein_export	annotation_font_size	9
+
+Limonene_and_pinene_degradation	clade_marker_size	88.9183366446
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Terpenoids_and_Polyketides	annotation_background_color	#00ff80
+Metabolism_of_Terpenoids_and_Polyketides	annotation	Metabolism of Terpenoids and Polyketides
+Metabolism_of_Terpenoids_and_Polyketides	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Limonene_and_pinene_degradation	clade_marker_color	#1f9929
+Limonene_and_pinene_degradation	annotation_background_color	#1f9929
+Limonene_and_pinene_degradation	annotation	*:Limonene and pinene degradation
+Limonene_and_pinene_degradation	annotation_font_size	9
+
+Bacterial_chemotaxis	clade_marker_size	122.272829652
+Bacterial_chemotaxis	clade_marker_color	#1d11a8
+Bacterial_chemotaxis	annotation_background_color	#1d11a8
+Bacterial_chemotaxis	annotation	*:Bacterial chemotaxis
+Bacterial_chemotaxis	annotation_font_size	9
+
+Tryptophan_metabolism	clade_marker_size	69.3247564173
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Starch_and_sucrose_metabolism	clade_marker_size	158.165787905
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Starch_and_sucrose_metabolism	clade_marker_color	#2515d3
+Starch_and_sucrose_metabolism	annotation_background_color	#2515d3
+Starch_and_sucrose_metabolism	annotation	*:Starch and sucrose metabolism
+Starch_and_sucrose_metabolism	annotation_font_size	9
+
+D_Glutamine_and_D_glutamate_metabolism	clade_marker_size	217.69411546
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Other_Amino_Acids	annotation_background_color	#00ff80
+Metabolism_of_Other_Amino_Acids	annotation	Metabolism of Other Amino Acids
+Metabolism_of_Other_Amino_Acids	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+D_Glutamine_and_D_glutamate_metabolism	clade_marker_color	#1e11ae
+D_Glutamine_and_D_glutamate_metabolism	annotation_background_color	#1e11ae
+D_Glutamine_and_D_glutamate_metabolism	annotation	*:D Glutamine and D glutamate metabolism
+D_Glutamine_and_D_glutamate_metabolism	annotation_font_size	9
+
+Proximal_tubule_bicarbonate_reclamation	clade_marker_size	53.6895401917
+Proximal_tubule_bicarbonate_reclamation	clade_marker_color	#27c234
+Proximal_tubule_bicarbonate_reclamation	annotation_background_color	#27c234
+Proximal_tubule_bicarbonate_reclamation	annotation	*:Proximal tubule bicarbonate reclamation
+Proximal_tubule_bicarbonate_reclamation	annotation_font_size	9
+
+Chloroalkane_and_chloroalkene_degradation	clade_marker_size	102.697309213
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Polycyclic_aromatic_hydrocarbon_degradation	clade_marker_size	79.9440466957
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Polycyclic_aromatic_hydrocarbon_degradation	clade_marker_color	#23ad2e
+Polycyclic_aromatic_hydrocarbon_degradation	annotation_background_color	#23ad2e
+Polycyclic_aromatic_hydrocarbon_degradation	annotation	*:Polycyclic aromatic hydrocarbon degradation
+Polycyclic_aromatic_hydrocarbon_degradation	annotation_font_size	9
+
+Aminobenzoate_degradation	clade_marker_size	78.1418193291
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Naphthalene_degradation	clade_marker_size	88.1512758724
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Naphthalene_degradation	clade_marker_color	#1a8423
+Naphthalene_degradation	annotation_background_color	#1a8423
+Naphthalene_degradation	annotation	*:Naphthalene degradation
+Naphthalene_degradation	annotation_font_size	9
+
+Dioxin_degradation	clade_marker_size	64.9518888428
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Dioxin_degradation	clade_marker_color	#26bf33
+Dioxin_degradation	annotation_background_color	#26bf33
+Dioxin_degradation	annotation	*:Dioxin degradation
+Dioxin_degradation	annotation_font_size	9
+
+Pyruvate_metabolism	clade_marker_size	167.387976334
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Toluene_degradation	clade_marker_size	85.2565390362
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Toluene_degradation	clade_marker_color	#1e9628
+Toluene_degradation	annotation_background_color	#1e9628
+Toluene_degradation	annotation	*:Toluene degradation
+Toluene_degradation	annotation_font_size	9
+
+Cysteine_and_methionine_metabolism	clade_marker_size	166.870830537
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Cysteine_and_methionine_metabolism	clade_marker_color	#2515d6
+Cysteine_and_methionine_metabolism	annotation_background_color	#2515d6
+Cysteine_and_methionine_metabolism	annotation	*:Cysteine and methionine metabolism
+Cysteine_and_methionine_metabolism	annotation_font_size	9
+
+Glycolysis_Gluconeogenesis	clade_marker_size	170.274136521
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Glycolysis_Gluconeogenesis	clade_marker_color	#23ad2e
+Glycolysis_Gluconeogenesis	annotation_background_color	#23ad2e
+Glycolysis_Gluconeogenesis	annotation	*:Glycolysis Gluconeogenesis
+Glycolysis_Gluconeogenesis	annotation_font_size	9
+
+Fatty_acid_metabolism	clade_marker_size	92.3132304078
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Synthesis_and_degradation_of_ketone_bodies	clade_marker_size	89.419531404
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Synthesis_and_degradation_of_ketone_bodies	clade_marker_color	#22a92d
+Synthesis_and_degradation_of_ketone_bodies	annotation_background_color	#22a92d
+Synthesis_and_degradation_of_ketone_bodies	annotation	*:Synthesis and degradation of ketone bodies
+Synthesis_and_degradation_of_ketone_bodies	annotation_font_size	9
+
+Glycosaminoglycan_degradation	clade_marker_size	87.1516266874
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Progesterone_mediated_oocyte_maturation	clade_marker_size	49.6127549121
+Phenylalanine_metabolism	clade_marker_size	81.4351069135
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Bisphenol_degradation	clade_marker_size	90.4344783013
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Bisphenol_degradation	clade_marker_color	#197b21
+Bisphenol_degradation	annotation_background_color	#197b21
+Bisphenol_degradation	annotation	*:Bisphenol degradation
+Bisphenol_degradation	annotation_font_size	9
+
+Oocyte_meiosis	clade_marker_size	42.6286451639
+Taurine_and_hypotaurine_metabolism	clade_marker_size	106.087246046
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Other_Amino_Acids	annotation_background_color	#00ff80
+Metabolism_of_Other_Amino_Acids	annotation	Metabolism of Other Amino Acids
+Metabolism_of_Other_Amino_Acids	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Taurine_and_hypotaurine_metabolism	clade_marker_color	#197f22
+Taurine_and_hypotaurine_metabolism	annotation_background_color	#197f22
+Taurine_and_hypotaurine_metabolism	annotation	*:Taurine and hypotaurine metabolism
+Taurine_and_hypotaurine_metabolism	annotation_font_size	9
+
+ABC_transporters	clade_marker_size	132.252958367
+Environmental_Information_Processing	annotation_background_color	#a52de0
+Environmental_Information_Processing	annotation	Environmental Information Processing
+Environmental_Information_Processing	annotation_font_size	12
+
+Membrane_Transport	annotation_background_color	#a52de0
+Membrane_Transport	annotation	Membrane Transport
+Membrane_Transport	annotation_font_size	10
+
+Ubiquinone_and_other_terpenoid_quinone_biosynthesis	clade_marker_size	100.032760718
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+RNA_degradation	clade_marker_size	123.034309663
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Nitrotoluene_degradation	clade_marker_size	73.7367769476
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Nitrotoluene_degradation	clade_marker_color	#2917e8
+Nitrotoluene_degradation	annotation_background_color	#2917e8
+Nitrotoluene_degradation	annotation	*:Nitrotoluene degradation
+Nitrotoluene_degradation	annotation_font_size	9
+
+Benzoate_degradation	clade_marker_size	75.7607029486
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Pentose_and_glucuronate_interconversions	clade_marker_size	133.339543821
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Pentose_and_glucuronate_interconversions	clade_marker_color	#1e11a9
+Pentose_and_glucuronate_interconversions	annotation_background_color	#1e11a9
+Pentose_and_glucuronate_interconversions	annotation	*:Pentose and glucuronate interconversions
+Pentose_and_glucuronate_interconversions	annotation_font_size	9
+
+Thiamine_metabolism	clade_marker_size	193.700004727
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Thiamine_metabolism	clade_marker_color	#170d83
+Thiamine_metabolism	annotation_background_color	#170d83
+Thiamine_metabolism	annotation	*:Thiamine metabolism
+Thiamine_metabolism	annotation_font_size	9
+
+Aminoacyl_tRNA_biosynthesis	clade_marker_size	194.316618246
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Biosynthesis_of_unsaturated_fatty_acids	clade_marker_size	82.3743610968
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Penicillin_and_cephalosporin_biosynthesis	clade_marker_size	51.6237801786
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Geraniol_degradation	clade_marker_size	67.9685547772
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Terpenoids_and_Polyketides	annotation_background_color	#00ff80
+Metabolism_of_Terpenoids_and_Polyketides	annotation	Metabolism of Terpenoids and Polyketides
+Metabolism_of_Terpenoids_and_Polyketides	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Ribosome	clade_marker_size	220.0
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Ribosome	clade_marker_color	#120a66
+Ribosome	annotation_background_color	#120a66
+Ribosome	annotation	*:Ribosome
+Ribosome	annotation_font_size	9
+
+beta_Lactam_resistance	clade_marker_size	56.0811715886
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Polyketide_sugar_unit_biosynthesis	clade_marker_size	78.4686939922
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Terpenoids_and_Polyketides	annotation_background_color	#00ff80
+Metabolism_of_Terpenoids_and_Polyketides	annotation	Metabolism of Terpenoids and Polyketides
+Metabolism_of_Terpenoids_and_Polyketides	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Polyketide_sugar_unit_biosynthesis	clade_marker_color	#1c8e26
+Polyketide_sugar_unit_biosynthesis	annotation_background_color	#1c8e26
+Polyketide_sugar_unit_biosynthesis	annotation	*:Polyketide sugar unit biosynthesis
+Polyketide_sugar_unit_biosynthesis	annotation_font_size	9
+
+Amino_sugar_and_nucleotide_sugar_metabolism	clade_marker_size	170.613084336
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Galactose_metabolism	clade_marker_size	152.53528026
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Ascorbate_and_aldarate_metabolism	clade_marker_size	76.5735833861
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Fructose_and_mannose_metabolism	clade_marker_size	172.78699496
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Novobiocin_biosynthesis	clade_marker_size	54.650261527
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Novobiocin_biosynthesis	clade_marker_color	#26c033
+Novobiocin_biosynthesis	annotation_background_color	#26c033
+Novobiocin_biosynthesis	annotation	*:Novobiocin biosynthesis
+Novobiocin_biosynthesis	annotation_font_size	9
+
+Phenylalanine_tyrosine_and_tryptophan_biosynthesis	clade_marker_size	162.313941364
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Phenylalanine_tyrosine_and_tryptophan_biosynthesis	clade_marker_color	#1b109c
+Phenylalanine_tyrosine_and_tryptophan_biosynthesis	annotation_background_color	#1b109c
+Phenylalanine_tyrosine_and_tryptophan_biosynthesis	annotation	*:Phenylalanine tyrosine and tryptophan biosynthesis
+Phenylalanine_tyrosine_and_tryptophan_biosynthesis	annotation_font_size	9
+
+Tyrosine_metabolism	clade_marker_size	117.12021833
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Glutathione_metabolism	clade_marker_size	113.31271799
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Other_Amino_Acids	annotation_background_color	#00ff80
+Metabolism_of_Other_Amino_Acids	annotation	Metabolism of Other Amino Acids
+Metabolism_of_Other_Amino_Acids	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Glutathione_metabolism	clade_marker_color	#22a82d
+Glutathione_metabolism	annotation_background_color	#22a82d
+Glutathione_metabolism	annotation	*:Glutathione metabolism
+Glutathione_metabolism	annotation_font_size	9
+
+Ethylbenzene_degradation	clade_marker_size	84.1077986184
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Ethylbenzene_degradation	clade_marker_color	#1b8523
+Ethylbenzene_degradation	annotation_background_color	#1b8523
+Ethylbenzene_degradation	annotation	*:Ethylbenzene degradation
+Ethylbenzene_degradation	annotation_font_size	9
+
+Propanoate_metabolism	clade_marker_size	124.346987297
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Carbon_fixation_pathways_in_prokaryotes	clade_marker_size	156.779153097
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Tropane_piperidine_and_pyridine_alkaloid_biosynthesis	clade_marker_size	70.3345876514
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Tropane_piperidine_and_pyridine_alkaloid_biosynthesis	clade_marker_color	#20a02b
+Tropane_piperidine_and_pyridine_alkaloid_biosynthesis	annotation_background_color	#20a02b
+Tropane_piperidine_and_pyridine_alkaloid_biosynthesis	annotation	*:Tropane piperidine and pyridine alkaloid biosynthesis
+Tropane_piperidine_and_pyridine_alkaloid_biosynthesis	annotation_font_size	9
+
+Two_component_system	clade_marker_size	104.78398509
+Environmental_Information_Processing	annotation_background_color	#a52de0
+Environmental_Information_Processing	annotation	Environmental Information Processing
+Environmental_Information_Processing	annotation_font_size	12
+
+Two_component_system	clade_marker_color	#2113bb
+Two_component_system	annotation_background_color	#2113bb
+Two_component_system	annotation	*:Two component system
+Two_component_system	annotation_font_size	9
+
+Glycosphingolipid_biosynthesis_globo_series	clade_marker_size	72.9837413319
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Glycosphingolipid_biosynthesis_globo_series	clade_marker_color	#1e9728
+Glycosphingolipid_biosynthesis_globo_series	annotation_background_color	#1e9728
+Glycosphingolipid_biosynthesis_globo_series	annotation	*:Glycosphingolipid biosynthesis globo series
+Glycosphingolipid_biosynthesis_globo_series	annotation_font_size	9
+
+Valine_leucine_and_isoleucine_biosynthesis	clade_marker_size	212.85757019
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Valine_leucine_and_isoleucine_biosynthesis	clade_marker_color	#1d9327
+Valine_leucine_and_isoleucine_biosynthesis	annotation_background_color	#1d9327
+Valine_leucine_and_isoleucine_biosynthesis	annotation	*:Valine leucine and isoleucine biosynthesis
+Valine_leucine_and_isoleucine_biosynthesis	annotation_font_size	9
+
+Base_excision_repair	clade_marker_size	157.094104268
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Replication_and_Repair	annotation_background_color	#ffea00
+Replication_and_Repair	annotation	Replication and Repair
+Replication_and_Repair	annotation_font_size	10
+
+Base_excision_repair	clade_marker_color	#2817e2
+Base_excision_repair	annotation_background_color	#2817e2
+Base_excision_repair	annotation	*:Base excision repair
+Base_excision_repair	annotation_font_size	9
+
+Metabolism_of_xenobiotics_by_cytochrome_P450	clade_marker_size	52.8460008652
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_xenobiotics_by_cytochrome_P450	clade_marker_color	#28c635
+Metabolism_of_xenobiotics_by_cytochrome_P450	annotation_background_color	#28c635
+Metabolism_of_xenobiotics_by_cytochrome_P450	annotation	*:Metabolism of xenobiotics by cytochrome P450
+Metabolism_of_xenobiotics_by_cytochrome_P450	annotation_font_size	9
+
+beta_Alanine_metabolism	clade_marker_size	97.0147037896
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Other_Amino_Acids	annotation_background_color	#00ff80
+Metabolism_of_Other_Amino_Acids	annotation	Metabolism of Other Amino Acids
+Metabolism_of_Other_Amino_Acids	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Drug_metabolism_other_enzymes	clade_marker_size	136.722252271
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Drug_metabolism_other_enzymes	clade_marker_color	#0f4913
+Drug_metabolism_other_enzymes	annotation_background_color	#0f4913
+Drug_metabolism_other_enzymes	annotation	*:Drug metabolism other enzymes
+Drug_metabolism_other_enzymes	annotation_font_size	9
+
+Staphylococcus_aureus_infection	clade_marker_size	39.6220867743
+Atrazine_degradation	clade_marker_size	69.3455604972
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Folate_biosynthesis	clade_marker_size	174.5306101
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Folate_biosynthesis	clade_marker_color	#1a0f97
+Folate_biosynthesis	annotation_background_color	#1a0f97
+Folate_biosynthesis	annotation	*:Folate biosynthesis
+Folate_biosynthesis	annotation_font_size	9
+
+Citrate_cycle_TCA_cycle_	clade_marker_size	157.446324876
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Citrate_cycle_TCA_cycle_	clade_marker_color	#28c735
+Citrate_cycle_TCA_cycle_	annotation_background_color	#28c735
+Citrate_cycle_TCA_cycle_	annotation	*:Citrate cycle TCA cycle 
+Citrate_cycle_TCA_cycle_	annotation_font_size	9
+
+Carbon_fixation_in_photosynthetic_organisms	clade_marker_size	141.693778689
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbon_fixation_in_photosynthetic_organisms	clade_marker_color	#0d4212
+Carbon_fixation_in_photosynthetic_organisms	annotation_background_color	#0d4212
+Carbon_fixation_in_photosynthetic_organisms	annotation	*:Carbon fixation in photosynthetic organisms
+Carbon_fixation_in_photosynthetic_organisms	annotation_font_size	9
+
+Histidine_metabolism	clade_marker_size	176.325005959
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Histidine_metabolism	clade_marker_color	#1b0f9a
+Histidine_metabolism	annotation_background_color	#1b0f9a
+Histidine_metabolism	annotation	*:Histidine metabolism
+Histidine_metabolism	annotation_font_size	9
+
+Peptidoglycan_biosynthesis	clade_marker_size	200.105921726
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Peptidoglycan_biosynthesis	clade_marker_color	#1d11a9
+Peptidoglycan_biosynthesis	annotation_background_color	#1d11a9
+Peptidoglycan_biosynthesis	annotation	*:Peptidoglycan biosynthesis
+Peptidoglycan_biosynthesis	annotation_font_size	9
+
+Butanoate_metabolism	clade_marker_size	129.481694828
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+DNA_replication	clade_marker_size	172.120128618
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Replication_and_Repair	annotation_background_color	#ffea00
+Replication_and_Repair	annotation	Replication and Repair
+Replication_and_Repair	annotation_font_size	10
+
+DNA_replication	clade_marker_color	#2213c2
+DNA_replication	annotation_background_color	#2213c2
+DNA_replication	annotation	*:DNA replication
+DNA_replication	annotation_font_size	9
+
+PPAR_signaling_pathway	clade_marker_size	50.4658267365
+PPAR_signaling_pathway	clade_marker_color	#29cc36
+PPAR_signaling_pathway	annotation_background_color	#29cc36
+PPAR_signaling_pathway	annotation	*:PPAR signaling pathway
+PPAR_signaling_pathway	annotation_font_size	9
+
+Cyanoamino_acid_metabolism	clade_marker_size	116.724329378
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Other_Amino_Acids	annotation_background_color	#00ff80
+Metabolism_of_Other_Amino_Acids	annotation	Metabolism of Other Amino Acids
+Metabolism_of_Other_Amino_Acids	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Streptomycin_biosynthesis	clade_marker_size	190.68714166
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Streptomycin_biosynthesis	clade_marker_color	#1c109e
+Streptomycin_biosynthesis	annotation_background_color	#1c109e
+Streptomycin_biosynthesis	annotation	*:Streptomycin biosynthesis
+Streptomycin_biosynthesis	annotation_font_size	9
+
+Biotin_metabolism	clade_marker_size	174.666659712
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Biotin_metabolism	clade_marker_color	#2012b6
+Biotin_metabolism	annotation_background_color	#2012b6
+Biotin_metabolism	annotation	*:Biotin metabolism
+Biotin_metabolism	annotation_font_size	9
+
+Glyoxylate_and_dicarboxylate_metabolism	clade_marker_size	119.460587135
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Glyoxylate_and_dicarboxylate_metabolism	clade_marker_color	#2a18f1
+Glyoxylate_and_dicarboxylate_metabolism	annotation_background_color	#2a18f1
+Glyoxylate_and_dicarboxylate_metabolism	annotation	*:Glyoxylate and dicarboxylate metabolism
+Glyoxylate_and_dicarboxylate_metabolism	annotation_font_size	9
+
+Lipoic_acid_metabolism	clade_marker_size	163.810004726
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Lipoic_acid_metabolism	clade_marker_color	#1c8d26
+Lipoic_acid_metabolism	annotation_background_color	#1c8d26
+Lipoic_acid_metabolism	annotation	*:Lipoic acid metabolism
+Lipoic_acid_metabolism	annotation_font_size	9
+
+Pentose_phosphate_pathway	clade_marker_size	188.660539777
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+Pentose_phosphate_pathway	clade_marker_color	#2716df
+Pentose_phosphate_pathway	annotation_background_color	#2716df
+Pentose_phosphate_pathway	annotation	*:Pentose phosphate pathway
+Pentose_phosphate_pathway	annotation_font_size	9
+
+One_carbon_pool_by_folate	clade_marker_size	198.512190446
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+One_carbon_pool_by_folate	clade_marker_color	#180e89
+One_carbon_pool_by_folate	annotation_background_color	#180e89
+One_carbon_pool_by_folate	annotation	*:One carbon pool by folate
+One_carbon_pool_by_folate	annotation_font_size	9
+
+Purine_metabolism	clade_marker_size	151.689097046
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Sulfur_relay_system	clade_marker_size	171.911540156
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Sulfur_relay_system	clade_marker_color	#180e8a
+Sulfur_relay_system	annotation_background_color	#180e8a
+Sulfur_relay_system	annotation	*:Sulfur relay system
+Sulfur_relay_system	annotation_font_size	9
+
+Lipopolysaccharide_biosynthesis	clade_marker_size	148.284147219
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Lipopolysaccharide_biosynthesis	clade_marker_color	#2113bb
+Lipopolysaccharide_biosynthesis	annotation_background_color	#2113bb
+Lipopolysaccharide_biosynthesis	annotation	*:Lipopolysaccharide biosynthesis
+Lipopolysaccharide_biosynthesis	annotation_font_size	9
+
+C5_Branched_dibasic_acid_metabolism	clade_marker_size	181.542028272
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Carbohydrate_Metabolism	annotation_background_color	#00ff80
+Carbohydrate_Metabolism	annotation	Carbohydrate Metabolism
+Carbohydrate_Metabolism	annotation_font_size	10
+
+RNA_polymerase	clade_marker_size	136.001853616
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Drug_metabolism_cytochrome_P450	clade_marker_size	55.4954823308
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Drug_metabolism_cytochrome_P450	clade_marker_color	#26be33
+Drug_metabolism_cytochrome_P450	annotation_background_color	#26be33
+Drug_metabolism_cytochrome_P450	annotation	*:Drug metabolism cytochrome P450
+Drug_metabolism_cytochrome_P450	annotation_font_size	9
+
+Arginine_and_proline_metabolism	clade_marker_size	129.83347583
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Arginine_and_proline_metabolism	clade_marker_color	#2817e3
+Arginine_and_proline_metabolism	annotation_background_color	#2817e3
+Arginine_and_proline_metabolism	annotation	*:Arginine and proline metabolism
+Arginine_and_proline_metabolism	annotation_font_size	9
+
+Zeatin_biosynthesis	clade_marker_size	126.20134692
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Terpenoids_and_Polyketides	annotation_background_color	#00ff80
+Metabolism_of_Terpenoids_and_Polyketides	annotation	Metabolism of Terpenoids and Polyketides
+Metabolism_of_Terpenoids_and_Polyketides	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Zeatin_biosynthesis	clade_marker_color	#2616da
+Zeatin_biosynthesis	annotation_background_color	#2616da
+Zeatin_biosynthesis	annotation	*:Zeatin biosynthesis
+Zeatin_biosynthesis	annotation_font_size	9
+
+Terpenoid_backbone_biosynthesis	clade_marker_size	173.523604955
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Terpenoids_and_Polyketides	annotation_background_color	#00ff80
+Metabolism_of_Terpenoids_and_Polyketides	annotation	Metabolism of Terpenoids and Polyketides
+Metabolism_of_Terpenoids_and_Polyketides	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Terpenoid_backbone_biosynthesis	clade_marker_color	#1e11a9
+Terpenoid_backbone_biosynthesis	annotation_background_color	#1e11a9
+Terpenoid_backbone_biosynthesis	annotation	*:Terpenoid backbone biosynthesis
+Terpenoid_backbone_biosynthesis	annotation_font_size	9
+
+Porphyrin_and_chlorophyll_metabolism	clade_marker_size	122.488272684
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Porphyrin_and_chlorophyll_metabolism	clade_marker_color	#2817e3
+Porphyrin_and_chlorophyll_metabolism	annotation_background_color	#2817e3
+Porphyrin_and_chlorophyll_metabolism	annotation	*:Porphyrin and chlorophyll metabolism
+Porphyrin_and_chlorophyll_metabolism	annotation_font_size	9
+
+Phenylpropanoid_biosynthesis	clade_marker_size	51.4679585459
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Phenylpropanoid_biosynthesis	clade_marker_color	#28c835
+Phenylpropanoid_biosynthesis	annotation_background_color	#28c835
+Phenylpropanoid_biosynthesis	annotation	*:Phenylpropanoid biosynthesis
+Phenylpropanoid_biosynthesis	annotation_font_size	9
+
+D_Alanine_metabolism	clade_marker_size	211.844086917
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Other_Amino_Acids	annotation_background_color	#00ff80
+Metabolism_of_Other_Amino_Acids	annotation	Metabolism of Other Amino Acids
+Metabolism_of_Other_Amino_Acids	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+D_Alanine_metabolism	clade_marker_color	#187620
+D_Alanine_metabolism	annotation_background_color	#187620
+D_Alanine_metabolism	annotation	*:D Alanine metabolism
+D_Alanine_metabolism	annotation_font_size	9
+
+Glycerolipid_metabolism	clade_marker_size	111.225299384
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Pyrimidine_metabolism	clade_marker_size	174.004331131
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Pyrimidine_metabolism	clade_marker_color	#2012b6
+Pyrimidine_metabolism	annotation_background_color	#2012b6
+Pyrimidine_metabolism	annotation	*:Pyrimidine metabolism
+Pyrimidine_metabolism	annotation_font_size	9
+
+Nucleotide_excision_repair	clade_marker_size	133.161643547
+Genetic_Information_Processing	annotation_background_color	#ffea00
+Genetic_Information_Processing	annotation	Genetic Information Processing
+Genetic_Information_Processing	annotation_font_size	12
+
+Replication_and_Repair	annotation_background_color	#ffea00
+Replication_and_Repair	annotation	Replication and Repair
+Replication_and_Repair	annotation_font_size	10
+
+Pantothenate_and_CoA_biosynthesis	clade_marker_size	194.419620928
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism_of_Cofactors_and_Vitamins	annotation_background_color	#00ff80
+Metabolism_of_Cofactors_and_Vitamins	annotation	Metabolism of Cofactors and Vitamins
+Metabolism_of_Cofactors_and_Vitamins	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Pantothenate_and_CoA_biosynthesis	clade_marker_color	#170d81
+Pantothenate_and_CoA_biosynthesis	annotation_background_color	#170d81
+Pantothenate_and_CoA_biosynthesis	annotation	*:Pantothenate and CoA biosynthesis
+Pantothenate_and_CoA_biosynthesis	annotation_font_size	9
+
+Flagellar_assembly	clade_marker_size	106.442797057
+Flagellar_assembly	clade_marker_color	#160d80
+Flagellar_assembly	annotation_background_color	#160d80
+Flagellar_assembly	annotation	*:Flagellar assembly
+Flagellar_assembly	annotation_font_size	9
+
+Valine_leucine_and_isoleucine_degradation	clade_marker_size	95.662007249
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Amino_Acid_Metabolism	annotation_background_color	#00ff80
+Amino_Acid_Metabolism	annotation	Amino Acid Metabolism
+Amino_Acid_Metabolism	annotation_font_size	10
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Primary_bile_acid_biosynthesis	clade_marker_size	34.0019997542
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Caprolactam_degradation	clade_marker_size	56.926253883
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Metabolism	annotation_background_color	#00ff80
+Metabolism	annotation	Metabolism
+Metabolism	annotation_font_size	12
+
+Cell_cycle_Caulobacter	clade_marker_size	173.521971094

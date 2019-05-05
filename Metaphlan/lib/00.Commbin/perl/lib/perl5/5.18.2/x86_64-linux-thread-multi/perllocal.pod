@@ -1,0 +1,22 @@
+=head2 Mon May  4 18:22:10 2015: C<Module> L<Image::Size|Image::Size>
+
+=over 4
+
+=item *
+
+C<installed into: /WORK/MICRO/chenjunru/perl_module/Image-Size-3.300/lib/perl5/site_perl/5.18.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.300>
+
+=item *
+
+C<EXE_FILES: imgsize>
+
+=back
+

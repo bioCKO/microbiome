@@ -1,0 +1,132 @@
+=head2 Thu Aug 14 10:25:52 2014: C<Module> L<ExtUtils::MakeMaker|ExtUtils::MakeMaker>
+
+=over 4
+
+=item *
+
+C<installed into: /home/chenjunru/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.98>
+
+=item *
+
+C<EXE_FILES: bin/instmodsh>
+
+=back
+
+=head2 Thu Aug 14 10:25:58 2014: C<Module> L<local::lib|local::lib>
+
+=over 4
+
+=item *
+
+C<installed into: /home/chenjunru/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.000012>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 14 10:59:08 2014: C<Module> L<Net|Net>
+
+=over 4
+
+=item *
+
+C<installed into: /home/chenjunru/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.27>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 14 11:04:48 2014: C<Module> L<Mail::Sender|Mail::Sender>
+
+=over 4
+
+=item *
+
+C<installed into: /home/chenjunru/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.8.23>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 14 11:05:02 2014: C<Module> L<MIME::Base64|MIME::Base64>
+
+=over 4
+
+=item *
+
+C<installed into: /home/chenjunru/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.14>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 14 11:11:04 2014: C<Module> L<Net|Net>
+
+=over 4
+
+=item *
+
+C<installed into: /home/chenjunru/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.27>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

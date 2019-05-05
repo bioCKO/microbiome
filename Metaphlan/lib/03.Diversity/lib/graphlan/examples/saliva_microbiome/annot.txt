@@ -1,0 +1,466 @@
+title	Saliva microbiome
+title_font_size	15
+
+clade_separation	0.5
+branch_bracket_depth	0.8
+branch_bracket_width	0.2
+annotation_legend_font_size	10
+class_legend_font_size	10
+class_legend_marker_size	1.5
+
+SPIROCHAETES	annotation	SPIROCHAETES
+SPIROCHAETES	clade_marker_color	#2d19ff
+SPIROCHAETES	clade_marker_size	40
+
+FIRMICUTES	annotation	FIRMICUTES
+FIRMICUTES	clade_marker_color	#29cc36
+FIRMICUTES	clade_marker_size	40
+
+BACTEROIDETES	annotation	BACTEROIDETES
+BACTEROIDETES	clade_marker_color	#ff3333
+BACTEROIDETES	clade_marker_size	40
+
+PROTEOBACTERIA	annotation	PROTEOBACTERIA
+PROTEOBACTERIA	clade_marker_color	#00bfff
+PROTEOBACTERIA	clade_marker_size	40
+
+ACTINOBACTERIA	annotation	ACTINOBACTERIA
+ACTINOBACTERIA	clade_marker_color	#00ff80
+ACTINOBACTERIA	clade_marker_size	40
+
+Eikenella	clade_marker_size	153.839191897
+Eikenella	clade_marker_color	#00bfff
+Eikenella	annotation_background_color	#00bfff
+Eikenella	annotation	*:Eikenella
+Eikenella	annotation_font_size	8
+
+Kingella	clade_marker_size	20.0
+Streptococcaceae	clade_marker_size	124.406868706
+Streptococcaceae	clade_marker_color	#29cc36
+Streptococcaceae	annotation_background_color	#29cc36
+Streptococcaceae	annotation	Streptococcaceae
+Streptococcaceae	annotation_font_size	8
+
+endodontalis	clade_marker_size	20.0
+Treponema	clade_marker_size	105.619817984
+Treponema	clade_marker_color	#2d19ff
+Treponema	annotation_background_color	#2d19ff
+Treponema	annotation	*:Treponema
+Treponema	annotation_font_size	8
+
+hyovaginalis	clade_marker_size	20.599224437
+Sharpea	clade_marker_size	20.2999075001
+Desulfobacterales	clade_marker_size	20.2999075001
+Enterobacteriaceae	clade_marker_size	22.6781005018
+Pseudoalteromonas	clade_marker_size	20.2999075001
+Neisseriales	clade_marker_size	154.212104069
+Neisseriales	clade_marker_color	#00bfff
+Neisseriales	annotation_background_color	#00bfff
+Neisseriales	annotation	Neisseriales
+Neisseriales	annotation_font_size	9
+
+Weeksellaceae	clade_marker_size	20.0
+Halomonadaceae	clade_marker_size	20.2999075001
+Abiotrophia	clade_marker_size	21.1960958924
+Spirochaetales	clade_marker_size	108.665621452
+Spirochaetales	clade_marker_color	#2d19ff
+Spirochaetales	annotation_background_color	#2d19ff
+Spirochaetales	annotation	Spirochaetales
+Spirochaetales	annotation_font_size	9
+
+Actinobacteria	clade_marker_size	61.510967081
+Actinobacteria	clade_marker_color	#00ff80
+Actinobacteria	annotation_background_color	#00ff80
+Actinobacteria	annotation	Actinobacteria
+Actinobacteria	annotation_font_size	9
+
+moorei	clade_marker_size	35.4034788518
+Deltaproteobacteria	clade_marker_size	20.8979531319
+Burkholderiales	clade_marker_size	52.57164583
+Fusobacteriales	clade_marker_size	22.9727753637
+Catonella	clade_marker_size	25.8885246509
+Spirochaetaceae	clade_marker_size	108.665621452
+Spirochaetaceae	clade_marker_color	#2d19ff
+Spirochaetaceae	annotation_background_color	#2d19ff
+Spirochaetaceae	annotation	Spirochaetaceae
+Spirochaetaceae	annotation_font_size	8
+
+CW040	clade_marker_size	21.4936550126
+Aerococcaceae	clade_marker_size	21.4936550126
+Selenomonas	clade_marker_size	73.3727832694
+Selenomonas	clade_marker_color	#29cc36
+Selenomonas	annotation_background_color	#29cc36
+Selenomonas	annotation	*:Selenomonas
+Selenomonas	annotation_font_size	8
+
+Clostridiales	clade_marker_size	137.842507106
+Clostridiales	clade_marker_color	#29cc36
+Clostridiales	annotation_background_color	#29cc36
+Clostridiales	annotation	Clostridiales
+Clostridiales	annotation_font_size	9
+
+brevis	clade_marker_size	20.599224437
+Bacteroidetes	clade_marker_size	79.583486562
+Bacteroidetes	clade_marker_color	#ff3333
+Bacteroidetes	annotation_background_color	#ff3333
+Bacteroidetes	annotation	Bacteroidetes
+Bacteroidetes	annotation_font_size	10
+
+Neisseria	clade_marker_size	20.8979531319
+noxia	clade_marker_size	73.3727832694
+noxia	clade_marker_color	#29cc36
+noxia	annotation_background_color	#29cc36
+noxia	annotation	*:noxia
+noxia	annotation_font_size	8
+
+intermedia	clade_marker_size	20.0
+Flavobacteriales	clade_marker_size	33.492609962
+F16	clade_marker_size	20.2999075001
+kestanbolensis	clade_marker_size	20.2999075001
+Proteobacteria	clade_marker_size	252.953995243
+Proteobacteria	clade_marker_color	#00bfff
+Proteobacteria	annotation_background_color	#00bfff
+Proteobacteria	annotation	Proteobacteria
+Proteobacteria	annotation_font_size	10
+
+Lactobacillus	clade_marker_size	114.901958427
+Lactobacillus	clade_marker_color	#29cc36
+Lactobacillus	annotation_background_color	#29cc36
+Lactobacillus	annotation	*:Lactobacillus
+Lactobacillus	annotation_font_size	8
+
+Flavobacteriaceae	clade_marker_size	33.2176570948
+Vagococcus	clade_marker_size	20.2999075001
+Bacillales	clade_marker_size	26.1770468546
+paralimentarius	clade_marker_size	20.599224437
+Erysipelotrichales	clade_marker_size	45.631169737
+Brevibacillus	clade_marker_size	20.2999075001
+lwoffii	clade_marker_size	20.2999075001
+Corynebacteriaceae	clade_marker_size	37.0224617522
+Campylobacteraceae	clade_marker_size	21.7906327729
+subflava	clade_marker_size	20.0
+Synergistales	clade_marker_size	20.599224437
+Cupriavidus	clade_marker_size	23.560416825
+TM7	clade_marker_size	25.3098320662
+iners	clade_marker_size	20.2999075001
+Rickettsiales	clade_marker_size	20.8979531319
+Rothia	clade_marker_size	36.2151257628
+mucilaginosa	clade_marker_size	29.3151634815
+dispar	clade_marker_size	20.0
+Fusobacteriia	clade_marker_size	22.9727753637
+Acholeplasmataceae	clade_marker_size	29.5972601947
+Bdellovibrionales	clade_marker_size	20.2999075001
+Propionibacteriaceae	clade_marker_size	20.8979531319
+TG5	clade_marker_size	20.599224437
+Mycoplasmataceae	clade_marker_size	20.0
+Haemophilus	clade_marker_size	26.4650224418
+Fusobacteria	clade_marker_size	22.9727753637
+Pasteurellales	clade_marker_size	30.4404226759
+Enterobacteriales	clade_marker_size	22.6781005018
+Bacteroidia	clade_marker_size	69.7373666109
+Bacteroidia	clade_marker_color	#ff3333
+Bacteroidia	annotation_background_color	#ff3333
+Bacteroidia	annotation	Bacteroidia
+Bacteroidia	annotation_font_size	9
+
+socranskii	clade_marker_size	48.3956996536
+Acinetobacter	clade_marker_size	24.4376412014
+Mycoplasma	clade_marker_size	20.0
+Prevotella	clade_marker_size	47.8967832254
+Gemella	clade_marker_size	20.2999075001
+Erysipelotrichi	clade_marker_size	45.631169737
+Coriobacteriaceae	clade_marker_size	38.3585653035
+ochracea	clade_marker_size	28.181511972
+Xanthomonadaceae	clade_marker_size	20.599224437
+Pseudoalteromonadaceae	clade_marker_size	20.2999075001
+Schwartzia	clade_marker_size	29.0325422622
+RF39	clade_marker_size	28.7493945827
+Tannerella	clade_marker_size	38.3585653035
+Desulfovibrionales	clade_marker_size	20.2999075001
+Lactobacillales	clade_marker_size	181.21345119
+Lactobacillales	clade_marker_color	#29cc36
+Lactobacillales	annotation_background_color	#29cc36
+Lactobacillales	annotation	Lactobacillales
+Lactobacillales	annotation_font_size	9
+
+Mollicutes	clade_marker_size	37.8255323716
+Oxalobacteraceae	clade_marker_size	24.728927912
+Anoxybacillus	clade_marker_size	20.2999075001
+SR1	clade_marker_size	20.0
+Epsilonproteobacteria	clade_marker_size	21.7906327729
+Moraxellaceae	clade_marker_size	32.66625479
+Alteromonadaceae	clade_marker_size	20.2999075001
+rhizosphaerae	clade_marker_size	20.2999075001
+Cyanobacteria	clade_marker_size	22.0870314408
+Peptostreptococcaceae	clade_marker_size	22.3828532701
+Burkholderiaceae	clade_marker_size	21.1960958924
+Actinobacillus	clade_marker_size	21.4936550126
+Gammaproteobacteria	clade_marker_size	184.402084047
+Gammaproteobacteria	clade_marker_color	#00bfff
+Gammaproteobacteria	annotation_background_color	#00bfff
+Gammaproteobacteria	annotation	Gammaproteobacteria
+Gammaproteobacteria	annotation_font_size	9
+
+Coriobacteriales	clade_marker_size	38.3585653035
+Leuconostocaceae	clade_marker_size	22.9727753637
+parvula	clade_marker_size	20.0
+Bulleidia	clade_marker_size	45.1230810122
+Porphyromonas	clade_marker_size	20.0
+Prevotella	clade_marker_size	20.0
+Actinomyces	clade_marker_size	20.599224437
+Acholeplasma	clade_marker_size	29.5972601947
+anginosus	clade_marker_size	112.307248447
+anginosus	clade_marker_color	#29cc36
+anginosus	annotation_background_color	#29cc36
+anginosus	annotation	*:anginosus
+anginosus	annotation_font_size	8
+
+Leptotrichiaceae	clade_marker_size	20.8979531319
+Fusobacterium	clade_marker_size	20.0
+Chloroplast	clade_marker_size	22.0870314408
+Alphaproteobacteria	clade_marker_size	20.8979531319
+Paenibacillaceae	clade_marker_size	20.599224437
+Xanthomonadales	clade_marker_size	20.599224437
+Alloiococcus	clade_marker_size	20.2999075001
+Capnocytophaga	clade_marker_size	28.181511972
+Bacillaceae	clade_marker_size	20.2999075001
+Lactobacillaceae	clade_marker_size	114.901958427
+Lactobacillaceae	clade_marker_color	#29cc36
+Lactobacillaceae	annotation_background_color	#29cc36
+Lactobacillaceae	annotation	Lactobacillaceae
+Lactobacillaceae	annotation_font_size	8
+
+Desulfovibrionaceae	clade_marker_size	20.2999075001
+Dethiosulfovibrionaceae	clade_marker_size	20.599224437
+Bacteroidales	clade_marker_size	69.7373666109
+Bacteroidales	clade_marker_color	#ff3333
+Bacteroidales	annotation_background_color	#ff3333
+Bacteroidales	annotation	Bacteroidales
+Bacteroidales	annotation_font_size	9
+
+Betaproteobacteria	clade_marker_size	168.537684296
+Betaproteobacteria	clade_marker_color	#00bfff
+Betaproteobacteria	annotation_background_color	#00bfff
+Betaproteobacteria	annotation	Betaproteobacteria
+Betaproteobacteria	annotation_font_size	9
+
+Veillonellaceae	clade_marker_size	90.1607440492
+Veillonellaceae	clade_marker_color	#29cc36
+Veillonellaceae	annotation_background_color	#29cc36
+Veillonellaceae	annotation	Veillonellaceae
+Veillonellaceae	annotation_font_size	8
+
+Fusobacteriaceae	clade_marker_size	20.0
+Vibrionaceae	clade_marker_size	20.599224437
+Erysipelotrichaceae	clade_marker_size	45.631169737
+Butyrivibrio	clade_marker_size	23.8533878158
+Pseudomonadaceae	clade_marker_size	115.703805206
+Pseudomonadaceae	clade_marker_color	#00bfff
+Pseudomonadaceae	annotation_background_color	#00bfff
+Pseudomonadaceae	annotation	Pseudomonadaceae
+Pseudomonadaceae	annotation_font_size	8
+
+melaninogenica	clade_marker_size	20.0
+Atopobium	clade_marker_size	36.4847144862
+veronii	clade_marker_size	65.5686305175
+veronii	clade_marker_color	#00bfff
+veronii	annotation_background_color	#00bfff
+veronii	annotation	*:veronii
+veronii	annotation_font_size	8
+
+Pseudomonas	clade_marker_size	115.062666532
+Pseudomonas	clade_marker_color	#00bfff
+Pseudomonas	annotation_background_color	#00bfff
+Pseudomonas	annotation	*:Pseudomonas
+Pseudomonas	annotation_font_size	8
+
+Actinomycetaceae	clade_marker_size	25.0196574913
+Clostridia	clade_marker_size	140.854374642
+Clostridia	clade_marker_color	#29cc36
+Clostridia	annotation_background_color	#29cc36
+Clostridia	annotation	Clostridia
+Clostridia	annotation_font_size	9
+
+reuteri	clade_marker_size	30.4404226759
+Dialister	clade_marker_size	34.8599631285
+Cardiobacteriales	clade_marker_size	115.863668221
+Cardiobacteriales	clade_marker_color	#00bfff
+Cardiobacteriales	annotation_background_color	#00bfff
+Cardiobacteriales	annotation	Cardiobacteriales
+Cardiobacteriales	annotation_font_size	9
+
+infantis	clade_marker_size	38.6243824543
+Pasteurellaceae	clade_marker_size	30.4404226759
+Neisseriaceae	clade_marker_size	154.212104069
+Neisseriaceae	clade_marker_color	#00bfff
+Neisseriaceae	annotation_background_color	#00bfff
+Neisseriaceae	annotation	Neisseriaceae
+Neisseriaceae	annotation_font_size	8
+
+Firmicutes	clade_marker_size	244.076192662
+Firmicutes	clade_marker_color	#29cc36
+Firmicutes	annotation_background_color	#29cc36
+Firmicutes	annotation	Firmicutes
+Firmicutes	annotation_font_size	10
+
+Streptophyta	clade_marker_size	22.0870314408
+Staphylococcus	clade_marker_size	25.0196574913
+Peptococcaceae	clade_marker_size	80.5943730322
+Peptococcaceae	clade_marker_color	#29cc36
+Peptococcaceae	annotation_background_color	#29cc36
+Peptococcaceae	annotation	Peptococcaceae
+Peptococcaceae	annotation_font_size	8
+
+johnsonii	clade_marker_size	21.4936550126
+Legionellales	clade_marker_size	20.2999075001
+Synergistetes	clade_marker_size	20.599224437
+Enterococcaceae	clade_marker_size	20.599224437
+aeria	clade_marker_size	27.3256901191
+Mycoplasmatales	clade_marker_size	20.0
+Micrococcaceae	clade_marker_size	37.558313313
+Delftia	clade_marker_size	20.599224437
+Paraprevotellaceae	clade_marker_size	20.0
+TM7-3	clade_marker_size	24.1457952199
+Desulfobulbaceae	clade_marker_size	20.2999075001
+Streptococcus	clade_marker_size	123.193668502
+Streptococcus	clade_marker_color	#29cc36
+Streptococcus	annotation_background_color	#29cc36
+Streptococcus	annotation	*:Streptococcus
+Streptococcus	annotation_font_size	8
+
+Cardiobacterium	clade_marker_size	115.863668221
+Cardiobacterium	clade_marker_color	#00bfff
+Cardiobacterium	annotation_background_color	#00bfff
+Cardiobacterium	annotation	*:Cardiobacterium
+Cardiobacterium	annotation_font_size	8
+
+Desulfobulbus	clade_marker_size	20.2999075001
+Campylobacterales	clade_marker_size	21.7906327729
+Lachnospiraceae	clade_marker_size	29.5972601947
+Alteromonadales	clade_marker_size	20.2999075001
+Campylobacter	clade_marker_size	21.7906327729
+Acidobacteria	clade_marker_size	20.2999075001
+Acidaminobacteraceae	clade_marker_size	20.2999075001
+Legionellaceae	clade_marker_size	20.2999075001
+otitis	clade_marker_size	20.2999075001
+Bacilli	clade_marker_size	185.416568805
+Bacilli	clade_marker_color	#29cc36
+Bacilli	annotation_background_color	#29cc36
+Bacilli	annotation	Bacilli
+Bacilli	annotation_font_size	9
+
+Scardovia	clade_marker_size	21.4936550126
+Janthinobacterium	clade_marker_size	20.2999075001
+Acidobacteria-6	clade_marker_size	20.2999075001
+Acidovorax	clade_marker_size	20.8979531319
+Flavobacteriia	clade_marker_size	33.492609962
+amylovorum	clade_marker_size	86.7161292883
+amylovorum	clade_marker_color	#2d19ff
+amylovorum	annotation_background_color	#2d19ff
+amylovorum	annotation	*:amylovorum
+amylovorum	annotation_font_size	8
+
+Filifactor	clade_marker_size	20.2999075001
+parainfluenzae	clade_marker_size	20.0
+Sporomusa	clade_marker_size	20.2999075001
+Bifidobacteriales	clade_marker_size	22.0870314408
+Leuconostoc	clade_marker_size	21.7906327729
+Paludibacter	clade_marker_size	25.0196574913
+Hydrogenophaga	clade_marker_size	30.4404226759
+Veillonella	clade_marker_size	20.0
+Prevotellaceae	clade_marker_size	49.8826980537
+Tenericutes	clade_marker_size	37.8255323716
+Pseudomonadales	clade_marker_size	122.583417825
+Pseudomonadales	clade_marker_color	#00bfff
+Pseudomonadales	annotation_background_color	#00bfff
+Pseudomonadales	annotation	Pseudomonadales
+Pseudomonadales	annotation_font_size	9
+
+Mobiluncus	clade_marker_size	20.2999075001
+agalactiae	clade_marker_size	20.599224437
+Spirochaetes	clade_marker_size	115.223204905
+Spirochaetes	clade_marker_color	#2d19ff
+Spirochaetes	annotation_background_color	#2d19ff
+Spirochaetes	annotation	Spirochaetes
+Spirochaetes	annotation_font_size	9
+
+zeae	clade_marker_size	24.728927912
+Corynebacterium	clade_marker_size	37.0224617522
+Synergistia	clade_marker_size	20.599224437
+Actinomycetales	clade_marker_size	57.5766411296
+Actinomycetales	clade_marker_color	#00ff80
+Actinomycetales	annotation_background_color	#00ff80
+Actinomycetales	annotation	Actinomycetales
+Actinomycetales	annotation_font_size	9
+
+mitochondria	clade_marker_size	20.8979531319
+nigrescens	clade_marker_size	47.8967832254
+acnes	clade_marker_size	20.2999075001
+longum	clade_marker_size	20.599224437
+Carnobacteriaceae	clade_marker_size	20.0
+Acholeplasmatales	clade_marker_size	29.5972601947
+Oceanospirillales	clade_marker_size	20.2999075001
+Leptotrichia	clade_marker_size	20.0
+Enhydrobacter	clade_marker_size	21.7906327729
+Weissella	clade_marker_size	21.1960958924
+fragi	clade_marker_size	20.8979531319
+segnis	clade_marker_size	22.6781005018
+equorum	clade_marker_size	21.1960958924
+Granulicatella	clade_marker_size	20.0
+fetus	clade_marker_size	21.7906327729
+pallens	clade_marker_size	20.0
+delbrueckii	clade_marker_size	20.599224437
+influenzae	clade_marker_size	26.4650224418
+Spirochaetes	clade_marker_size	115.223204905
+Spirochaetes	clade_marker_color	#2d19ff
+Spirochaetes	annotation_background_color	#2d19ff
+Spirochaetes	annotation	Spirochaetes
+Spirochaetes	annotation_font_size	10
+
+Bdellovibrionaceae	clade_marker_size	20.2999075001
+Comamonadaceae	clade_marker_size	46.1375657701
+Coriobacteriia	clade_marker_size	38.3585653035
+cinerea	clade_marker_size	20.8979531319
+columnare	clade_marker_size	20.2999075001
+Lactococcus	clade_marker_size	22.3828532701
+Bifidobacterium	clade_marker_size	20.599224437
+Aggregatibacter	clade_marker_size	22.6781005018
+Tissierellaceae	clade_marker_size	21.7906327729
+Gemellales	clade_marker_size	20.599224437
+tannerae	clade_marker_size	20.0
+Vibrionales	clade_marker_size	20.8979531319
+parahaemolyticus	clade_marker_size	20.0
+Lautropia	clade_marker_size	20.0
+Propionibacterium	clade_marker_size	20.2999075001
+equi	clade_marker_size	20.2999075001
+Aeromonadales	clade_marker_size	20.2999075001
+Cardiobacteriaceae	clade_marker_size	115.863668221
+Cardiobacteriaceae	clade_marker_color	#00bfff
+Cardiobacteriaceae	annotation_background_color	#00bfff
+Cardiobacteriaceae	annotation	Cardiobacteriaceae
+Cardiobacteriaceae	annotation_font_size	8
+
+Flavobacterium	clade_marker_size	24.4376412014
+Peptococcus	clade_marker_size	80.5943730322
+Peptococcus	clade_marker_color	#29cc36
+Peptococcus	annotation_background_color	#29cc36
+Peptococcus	annotation	*:Peptococcus
+Peptococcus	annotation_font_size	8
+
+Megasphaera	clade_marker_size	20.0
+Bacteria	clade_marker_size	370.0
+Porphyromonadaceae	clade_marker_size	43.8453788799
+Cellvibrio	clade_marker_size	20.2999075001
+Parvimonas	clade_marker_size	21.7906327729
+Moraxella	clade_marker_size	21.4936550126
+nanceiensis	clade_marker_size	20.0
+Peptostreptococcus	clade_marker_size	22.0870314408
+Bifidobacteriaceae	clade_marker_size	22.0870314408
+Staphylococcaceae	clade_marker_size	25.0196574913
+Gemellaceae	clade_marker_size	20.2999075001
+Actinobacteria	clade_marker_size	76.7167069845
+Actinobacteria	clade_marker_color	#00ff80
+Actinobacteria	annotation_background_color	#00ff80
+Actinobacteria	annotation	Actinobacteria
+Actinobacteria	annotation_font_size	10
+

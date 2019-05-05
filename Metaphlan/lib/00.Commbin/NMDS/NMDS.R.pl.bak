@@ -1,0 +1,163 @@
+#!/usr/bin/perl -w
+use strict;
+use FindBin qw/$Bin/;
+use Cwd qw/abs_path/;
+use lib "/PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V2.2/lib/00.Commbin/";
+use PATHWAY;
+use Getopt::Long;
+my $cfg = "/PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V2.2/bin/Pathway_cfg.txt";
+(-s $cfg) || die"error: can't find config file: $cfg, $!\n";
+my ($R0,$convert)=get_pathway($cfg,[qw(R CONVERT)]);
+my $T=1;
+GetOptions("R:s"=>\$R0,"T"=>\$T);
+unless (@ARGV>=2){
+    die "Usage: perl $0 <exp_data> <group> <outdir> [-R R_PATH] [-T(to change input matrix)]\n"
+}
+my ($exp_data,$group,$outdir,$R) = @ARGV;
+$R ||= $R0;
+$outdir ||= ".";
+(-d $outdir) || mkdir($outdir);
+if($T){
+    my $bname = (split/\//,$exp_data)[-1];
+    system"perl $Bin/taxa_table.pl $exp_data $outdir/$bname";
+    $exp_data = "$outdir/$bname";
+}
+for ($exp_data,$group,$outdir){
+    $_=abs_path($_);
+}
+
+##### NMDS #####
+my $NMDS_score =<< "NMDS";
+    library(vegan)
+    library(permute)
+    library(lattice)
+    setwd(\"$outdir\")
+	otu1=read.table(\"$exp_data\",header=T,row.names=1,sep="\\t",comment.char=\"\")
+    otu=t(otu1)
+    dist=vegdist(otu,method=\"bray\")
+    nmds=monoMDS(dist)
+    capture.output(nmds,file = "Stress.txt" )
+    nmds_scores=scores(nmds, choices = c(1,2))
+    write.table(nmds_scores,file="NMDS_scores.txt")
+	
+NMDS
+open OUT1,">$outdir/NMDS.R" or die $!;
+print OUT1 $NMDS_score;
+close OUT1;
+
+##### get stress value #####
+system "$R -f $outdir/NMDS.R";
+my $stress;
+for (`less $outdir/Stress.txt`){
+    if (/^Stress:\s+(\S+)/){
+        if ($1 >= 0.001){
+            $stress = "Stress = ";
+            $stress .= sprintf "%.3f",$1;
+        }elsif($1 < 0.001){
+            $stress = "Stress < 0.001";
+        }
+    }
+}
+
+
+##### Initialize & NMDS Plot #####
+my $plot_NMDS =<< "PLOT";
+# Initialize
+    library(ggplot2)
+    library(grid)
+    setwd(\"$outdir\")
+    scores = read.table(\"$outdir/NMDS_scores.txt\",header=T)
+    groups=read.table(\"$group\", head=F,colClasses=c(\"character\",\"character\"))
+
+    len=length(unique(as.character(groups\$V1)))
+    times1=len%/%8
+    res1=len%%8
+    times2=len%/%5
+    res2=len%%5
+    col1=rep(1:8,times1)
+    col=c(col1,1:res1)
+    pich1=rep(c(15:18,20,7:14,0:6),times2)
+    pich=c(pich1,15:(15+res2))
+
+    ncol=ncol(groups)
+    group1=c()
+    group2=c() 
+    for(i in 1:length(groups\$V1)){
+        Order=grep(paste0('^',rownames(scores)[i],'\$'),groups\$V1,perl=T)
+        group1[i]=groups\$V2[Order]
+        if(ncol==3){
+            group2[i]=groups\$V3[Order]
+        }
+    }
+    group1=factor(group1,levels=unique(group1))## edit by ye,to fix group order 2015-12-07
+    group2=factor(group2,levels=unique(group2))## edit by ye,to fix group order 2015-12-07
+    if(ncol==2){
+        plotdata = data.frame(rownames(scores),scores\$MDS1,scores\$MDS2,group1)
+        colnames(plotdata)=c("sample","MDS1","MDS2","group")
+        point<-geom_point(aes(colour=group,shape=group),size=6)
+    }else if(ncol==3){
+        plotdata = data.frame(rownames(scores),scores\$MDS1,scores\$MDS2,group1,group2)
+        colnames(plotdata)=c("sample","MDS1","MDS2","group1","group2")
+        point<-geom_point(aes(colour=group1,shape=group2),size=6)
+    }
+    plotdata\$sample = factor(plotdata\$sample)
+    plotdata\$MDS1=as.numeric(as.vector(plotdata\$MDS1))
+    plotdata\$MDS2=as.numeric(as.vector(plotdata\$MDS2))
+
+#NMDS Plot
+    plot_NMDS1<-ggplot(plotdata, aes(MDS1, MDS2)) +
+	    geom_text(aes(label=sample),size=5,family="Arial",hjust=0.5,vjust=-0.8)+ 
+	    point+ 
+        scale_shape_manual(values=pich)+
+        scale_colour_manual(values=col)+
+	    labs(title="NMDS Plot") + xlab(paste("MDS1")) + ylab(paste("MDS2"))+
+        theme(text=element_text(family="Arial",size=18))+
+#        geom_vline(aes(x=0,y=0),linetype="dotted")+
+#       geom_hline(aes(x=0,y=0),linetype="dotted")+
+        geom_text(aes(x=max(MDS1),y=max(MDS2)),hjust=1,vjust=0,size=5,label="$stress",colour="black")+
+	    theme(panel.background = element_rect(fill='white', colour='black'), panel.grid=element_blank(), 
+	        axis.title = element_text(color='black',family="Arial",size=18),axis.ticks.length = unit(0.4,"lines"), 
+	        axis.ticks = element_line(color='black'), axis.ticks.margin = unit(0.6,"lines"),axis.line = element_line(colour = "black"), 
+	        axis.title.x=element_text(colour='black', size=18),axis.title.y=element_text(colour='black', size=18),axis.text=element_text(colour='black',size=18),
+	        legend.title=element_blank(),legend.text=element_text(family="Arial", size=18),legend.key=element_blank())+
+        theme(plot.title = element_text(size=20,colour = "black",face = "bold",hjust = 0.5))
+
+    cairo_pdf(filename="$outdir/NMDS.pdf",height=10,width=12)
+    plot_NMDS1  
+#    png(filename="$outdir/NMDS.png",res=600,height=5400,width=7200,type="cairo")
+#	plot_NMDS1
+	dev.off()
+
+    plot_NMDS2<-ggplot(plotdata, aes(MDS1, MDS2)) +
+	    point+ 
+        scale_shape_manual(values=pich)+
+        scale_colour_manual(values=col)+
+	    labs(title="NMDS Plot") + xlab(paste("MDS1")) + ylab(paste("MDS2"))+
+        theme(text=element_text(family="Arial",size=18))+
+#  geom_vline(aes(x=0,y=0),linetype="dotted")+
+#       geom_hline(aes(x=0,y=0),linetype="dotted")+
+        geom_text(aes(x=max(MDS1),y=max(MDS2)),hjust=1,vjust=0,size=5,label="$stress",colour="black")+
+	    theme(panel.background = element_rect(fill='white', colour='black'), panel.grid=element_blank(), 
+	        axis.title = element_text(color='black',family="Arial",size=18),axis.ticks.length = unit(0.4,"lines"), 
+		    axis.ticks = element_line(color='black'), axis.ticks.margin = unit(0.6,"lines"),axis.line = element_line(colour = "black"), 
+		    axis.title.x=element_text(colour='black', size=18),axis.title.y=element_text(colour='black', size=18),axis.text=element_text(colour='black',size=18),
+		    legend.title=element_blank(),legend.text=element_text(family="Arial", size=18),legend.key=element_blank())+
+        theme(plot.title = element_text(size=20,colour = "black",face = "bold",hjust = 0.5))
+
+    cairo_pdf(filename="$outdir/NMDS_2.pdf",height=10,width=12)
+    plot_NMDS2  
+#    png(filename="$outdir/NMDS_2.png",res=600,height=5400,width=7200,type="cairo")
+#	plot_NMDS2
+	dev.off()
+	
+PLOT
+
+
+open OUT2, ">$outdir/plot_NMDS.R" or die $!;
+print OUT2 $plot_NMDS;
+close OUT2;
+
+system "$R -f $outdir/plot_NMDS.R
+        $convert -density 300 $outdir/NMDS.pdf $outdir/NMDS.png
+        $convert -density 300 $outdir/NMDS_2.pdf $outdir/NMDS_2.png
+";

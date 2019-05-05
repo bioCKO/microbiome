@@ -1,0 +1,7 @@
+clade_separation	0.5
+branch_bracket_depth	0.8
+branch_bracket_width	0.2
+annotation_legend_font_size	10
+class_legend_font_size	10
+class_legend_marker_size	1.5
+

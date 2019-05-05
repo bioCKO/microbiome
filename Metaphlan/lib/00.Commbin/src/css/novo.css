@@ -1,0 +1,205 @@
+body {
+   color: #444;
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   font:13px/1.231 sans-serif; 
+   font-weight: normal;
+   padding: 0px 0px 0px 0px;
+   margin: 0px;
+   background-color: white;	
+}
+
+input:-webkit-autofill {
+        color: #444444 !important;
+}
+
+a, a:visited {
+    color: #5281B0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EA9D2F;
+    text-decoration: none;
+}
+
+a.table_table {
+    color: #688FC5
+}
+
+h1 {
+    font-size: 1.6em;    
+    font-variant: normal;
+}
+
+h2 {
+    color: #5399f7;
+    font-size: 1.4em;
+    font-variant: normal;
+}
+
+h3 {
+    color: #5399f7;
+    font-size: 1.2em;
+    font-variant: normal;
+}
+img {
+    border: none;
+    vertical-align: bottom;
+}
+
+div.clear {
+    clear: both;    
+}
+
+
+
+/********************************************************/
+/*  MENU                                                */
+/********************************************************/
+
+div#topbar {
+    font-size: 12px;
+    display: block;
+    background-color: #5399f7;
+    border-bottom: 1px solid #5399f7;
+    background:url(../images/logo.png) no-repeat 0px 0px;
+}
+
+#topbar img.imglink {
+    height: 18px;
+    border: none;
+    vertical-align: top;
+}
+
+td.topbar_button {
+    padding: 2px 15px 0px 0px; 
+    text-align: right;
+}
+
+td.topbar_button_right {
+    padding: 2px 40px 0px 0px; 
+    text-align: right;
+}
+
+
+/********************************************************/
+/*  CONTENT                                             */
+/********************************************************/
+
+p.pra {text-indent: 2em; line-height: 1.5 ;font-size: 1.1em}
+p.center {text-align: left}
+p.name {text-align: left; line-height: 1.5; font-size: 1.0em; margin-left:2em; margin-right:2em}
+
+#page_title {
+    color:#5399f7;
+    font-weight: bold;
+    font-size:1.6em;
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+}
+
+#content_frame {
+    background-image: url(background_image.png);
+    background-repeat: repeat-x;
+    margin: 0px 0px;
+    padding-top: 15px;
+}
+
+#content {
+    background: white;
+    width: 960px;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a > img {
+    border: none;
+}
+
+/********************************************************/
+/*  TABLE                                               */
+/********************************************************/
+
+table {
+    font-size: 12px;
+    text-align: left;
+}
+
+th {
+    font-size: 12px;
+    background: #ddd;
+    vertical-align: top;
+    padding: 3px 5px 3px 5px;
+}
+
+td {
+    font-size: 12px;
+    vertical-align: top; 
+}
+
+td.even {
+    border: 1px solid black;
+    background-color: #ebebeb;
+    padding: 2px;
+}
+
+td.odd {
+     border: 1px solid black;
+     padding-left: 2px;
+}
+
+/********************************************************/
+/*  Overview                                            */
+/********************************************************/
+
+div.metagenome_info {
+    width: 290px; 
+    float: left; 
+}
+
+.metagenome_info ul li.first {
+    border-top:1px dashed #D2DADA;
+}
+
+.metagenome_info ul li.odd {
+    background: white;
+}
+
+.metagenome_info ul li {
+    background:#F7F7F7;
+    border-bottom:1px dashed #D2DADA;
+    clear:left;
+    color:#273E53;
+    display:block;
+    font-size:12px;
+    height:20px;
+    line-height:12px;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding: 10px 5px 5px;   
+}
+
+.metagenome_info ul li label {
+    color:black;
+    float:left;
+    font-style:italic;
+    margin:0 10px 0 0;
+    width:100px;   
+}
+
+.metagenome_info ul li span {
+    display:block;
+    float:left;
+    font-weight:bold;
+    text-align:right;
+    width:160px;
+}

@@ -1,0 +1,54 @@
+#!/usr/bin/perl
+use strict;
+use FindBin qw($Bin);
+
+my $binslist = shift;
+my $covlist = shift;
+my %bin2fa;
+open F, $binslist;
+while(<F>){
+    chomp;
+    my ($index, $fa) = split/\s+/,$_;
+    $bin2fa{$index} = $fa;
+    `perl $Bin/cluster.coverage.abstract.pl $fa $covlist >$covlist.$index`;
+    `perl $Bin/get_len_fa.pl $fa >$fa.len.xls`; 
+}close F;
+
+my ($head, @head);my $sample_num; my %bin2dep;
+foreach my $binId(keys %bin2fa){
+    my %scaf2len;
+    for(`less $bin2fa{$binId}.len.xls`){
+        my ($id, $len) = split/\s+/,$_;
+        $scaf2len{$id} = $len;
+    }
+    my (%sample2totalLen, %sample2totaldep);
+    for(`less $covlist.$binId`){
+        if(/contig/){$head = $_; chomp($head); @head = split/\s+/,$head; $sample_num = $#head;}
+        else{
+            my @arr = split/\s+/,$_;
+            foreach(1..$sample_num){
+                $sample2totaldep{$head[$_]} += $arr[$_]*$scaf2len{$arr[0]};
+                $sample2totalLen{$head[$_]} += $scaf2len{$arr[0]};
+            }
+        }
+    }
+
+    my @avg_dep; my $total_dep;
+    foreach(1..$sample_num){
+        my $avg_dep = $sample2totaldep{$head[$_]}/$sample2totalLen{$head[$_]};
+        $total_dep += $avg_dep;
+        push @avg_dep, $avg_dep;
+    }
+    push @avg_dep, $total_dep;
+    @{$bin2dep{$binId}} = @avg_dep;
+}
+
+shift @head;
+print "BinID\t".join("\t",@head)."total_avgDepth\t"."\n";
+foreach my $binId(keys %bin2dep){
+    print "$binId\t".join("\t",@{$bin2dep{$binId}})."\n";
+}
+
+
+    
+        

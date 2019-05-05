@@ -1,0 +1,172 @@
+#!/usr/bin/perl -w
+
+=head1 Description:
+
+    script for high-dimensional biomarkers discovery from two or more groups of tax or function relative table.After discriminate of biomarkers,it can have a AUROC analysis base on these biomarkers.
+
+=head2 Version:
+
+    Version: 1.0  Date: 2016-05-10
+    Contact: yelei[AT]novogene.cn
+
+=head2 Usage: perl run_LDA.pl <input relative table folder> <all.mf> [--options]
+
+    *--indir <dir>          input relative table folder,like MicroNR_stat/Relative/heatmap/
+    *--mf  <file >          input file for all.mf
+    *--lefse_vs <file>      input vs group list
+    *--rank                 set analysis rank,such as f,g,s,ko,level1,og,separation by comma
+    --step <num>            step to run: 1-Format Data for LDA analysis
+                                         2-Perform the actual statistica analysis LDA Effect Size (LEfSe) 
+                                         3-Plot the list of biomarkers with their effect size
+                                         4-Plot the clustered heatmap of the biomarkers in VS group
+                                         5-AUROC analysis using the relative abundance of biomarker
+                                         default=1234
+    --prefix <str>          set output prefix
+    --format_options=<str>  set format data options, default='-c 1 -o 1000000'
+    --LDA_options=<str>     set statistica analysis options, default='-l 3'
+    --list_options=<str>    set plot the list of biomarkers options,default='--format pdf'
+    --top                   set top num biomarkers to plot heatmap
+    --group_col             set group label colour of heatmap
+    --help <str>            format: output format data help information to screen.
+                            LDA: output statistica analysis help information to screen.
+                            list: output plot the list of biomarkers help information to screen.
+                            heatmap: output plot heatmap of biomarkers help information to screen.
+
+=cut
+#==================================================================================================================================
+use strict;
+use Cwd qw(abs_path);
+use FindBin qw($Bin);
+use lib "$Bin/../../00.Commbin";
+use PATHWAY;
+(-s "$Bin/../../../bin/Pathway_cfg.txt") || die"error: can't find config at $Bin/../../../bin, $!\n";
+my($lefse_root,$convert,$R) = 
+get_pathway("$Bin/../../../bin/Pathway_cfg.txt",[qw(LEFSE CONVERT R5)]);
+
+#get options
+use Getopt::Long;
+my %opt = (outdir=>".",step=>1234,prefix=>"LDA",format_options=>" -c 1 -o 1000000 ",LDA_options=>" -l 3 ",list_options=>" --format pdf ",all_options=>" --format pdf ");
+
+GetOptions(
+    \%opt,"indir:s","mf:s","rank:s","step:i","lefse_vs:s","prefix:s","format_options:s",
+    "LDA_options:s","list_options:s","all_options:s","top:i","group_col:s","help:s"
+);
+my $get2lefse="perl $Bin/get_lefse.pl ";
+my $format_input="/PUBLIC/software/public/System/Python2.76/Python-2.7.6/bin/python $lefse_root/format_input.py "; ###change python => /usr/bin/python2.6 by zhanghao 20180328
+my $run_lefse="/PUBLIC/software/public/System/Python2.76/Python-2.7.6/bin/python $lefse_root/run_lefse.py ";
+my $plot_res="/PUBLIC/software/public/System/Python2.76/Python-2.7.6/bin/python $lefse_root/plot_res.py ";
+my $heatmap="perl $Bin/heatmap/biomarker_heatmap.pl ";
+$opt{top} && ($heatmap .= " --top $opt{top}");
+$opt{group_col} && ($heatmap .= " --group_col $opt{group_col}");
+my $tran = "perl $Bin/SVM_ROC/Tran_table.pl ";
+my $get_roc = "perl $Bin/SVM_ROC/get_roc.pl ";
+my $roc_R="$Bin/SVM_ROC/SVM_roc.R ";
+
+if($opt{help}){
+    ($opt{help} eq 'format') ? system"$format_input -h" :
+    ($opt{help} eq 'LDA') ? system"$run_lefse -h" :
+    ($opt{help} eq 'list') ? system"$plot_res -h" :
+    ($opt{help} eq 'heatmap') ? system"$heatmap" :
+    die"error: --help just can be selected from format|LDA|list|heatmap\n";
+    exit;
+}
+
+#====================================================================================================================
+($opt{indir} && -s $opt{indir})&&($opt{mf} && -s $opt{mf})&&($opt{lefse_vs} && -s $opt{lefse_vs})&&($opt{rank}) || die `pod2text $0`;
+foreach($opt{indir},$opt{mf},$opt{lefse_vs},$opt{outdir}){
+    $_ =abs_path($_);
+}
+my ($indir,$mf)=($opt{indir},$opt{mf});
+my @rank = split /,/,$opt{rank};
+my %all_rank=("k"=>"kingdom","p"=>"phylum","c"=>"class","o"=>"order","f"=>"family","g"=>"genus","s"=>"species","ko"=>"ko","level1"=>"level1","level2"=>"level2","level3"=>"level3","og"=>"og");
+my %vs_group;
+if ($opt{lefse_vs} && -s $opt{lefse_vs})
+{
+	for (`less $opt{lefse_vs}`)
+	{
+		chomp;
+		my @line= (/\t/) ? (split /\t/) : split;
+		my $vs=join ",",@line;
+		$vs_group{$vs}=scalar @line;
+	}
+}
+(-d "$opt{outdir}") || `mkdir -p $opt{outdir}`;
+open ALLSH,"> $opt{outdir}/all_LDA.sh";
+
+for my $rank(@rank){
+    my $mat = "$indir/Unigenes.relative.$rank\.xls";
+    if ($opt{lefse_vs} && -s $opt{lefse_vs}) {
+        my $i=0;
+        for my $vs (sort {$vs_group{$a} <=> $vs_group{$b}} keys %vs_group) 
+		{
+			#print "$vs\n";
+			my @vs_group=split /,/,$vs;
+				
+            my $vs_group_filename;
+            #print "@vs_group\n";
+			for (@vs_group){
+                $vs_group_filename.=$_."_vs_";
+            }
+            substr($vs_group_filename,-4,4)="";
+            $i++;
+            my $lda_dir = "$opt{outdir}/$all_rank{$rank}/$i\_$vs_group_filename/LDA";
+            (-d $lda_dir) || `mkdir -p $lda_dir`;
+
+            ### 0) Format the input table for Format data.
+            open(SH,">$opt{outdir}/$all_rank{$rank}/$opt{prefix}\_$i\_ROC.sh");
+            print SH "### 0) Format the input table for Format data\ncd $lda_dir\n";
+#       print SH "source $lefse_root/activate.sh\n";
+            print SH "$get2lefse $mat $mf $opt{prefix}.$i.txt --vs $vs\n";
+
+            ### 1) Format Data for LEfSe
+            if($opt{step}=~/1/){
+                print SH "### 1) Format Data for LEfSe\n$format_input $opt{prefix}.$i.txt $opt{prefix}.$i.in $opt{format_options}\n";
+            }
+
+            ### 2) Perform the actual statistica analysis LDA Effect Size
+            if($opt{step}=~/2/){
+                print SH "### 2) Perform the actual statistica analysis LDA Effect Size\n";
+                $opt{LDA_options} ? print SH "$run_lefse $opt{prefix}.$i.in $opt{prefix}.$i.res $opt{LDA_options}\n" : print SH "$run_lefse $opt{prefix}.$i.in $opt{prefix}.$i.res\n";
+            }
+            ### 3) Plot the list of biomarkers with their effect size
+            if ($opt{step}=~/3/) {
+                my $format;
+                if($opt{list_options}=~/--format\s+(pdf|svg|png)/){$format=$1;}else{$format='pdf';}
+                print SH "### 3) Plot the list of biomarkers with their effect size\n$plot_res $opt{prefix}.$i.res $opt{prefix}.$i.$format $opt{list_options}\n",
+                "$convert  -density 300 $opt{prefix}.$i.$format $opt{prefix}.$i.png\n";
+            }
+            ### 4) Plot the clustered heatmap of the biomarkers in VS group
+            if ($opt{step}=~/4/) {
+                my $heatmap_dir = "$opt{outdir}/$all_rank{$rank}/$i\_$vs_group_filename/heatmap";
+                (-s $heatmap_dir) || `mkdir  $heatmap_dir`;
+                print SH "### 4) Plot the clustered heatmap of the biomarkers in VS group\ncd $heatmap_dir\n";
+                print SH "$heatmap --lda $lda_dir/$opt{prefix}.$i.res --table $mat --mf $mf --vs $vs\n";
+            } 
+            ### 5) AUROC analysis using the relative abundance of biomarker
+            if ($opt{step}=~/5/ && @vs_group==2) {
+                my $cluster_file = "$opt{outdir}/$all_rank{$rank}/$i\_$vs_group_filename/heatmap/cluster.txt";
+#                (-s $$cluster_file) || next;
+                my $group = "$opt{outdir}/$all_rank{$rank}/$i\_$vs_group_filename/heatmap/group.list";
+                my $ROC_dir = "$opt{outdir}/$all_rank{$rank}/$i\_$vs_group_filename/ROC";
+                (-s $ROC_dir) || `mkdir $ROC_dir`;
+                my $input = "$vs_group_filename\_tran.xls";
+                my $roc_file = "$vs_group_filename\_roc_file.xls";
+                print SH "### 5) AUROC analysis using the relative abundance of biomarker\ncd $ROC_dir\n";
+                print SH "$tran $cluster_file > $input\n";
+                print SH "$get_roc $input  $group $roc_file\n";
+                print SH "$R $roc_R --infile $roc_file --vs $vs_group_filename\n",
+                "$convert -density 300 $vs_group_filename\_ROC.pdf $vs_group_filename\_ROC.png\n"
+            }
+            print SH "\n";
+			close SH;
+			print ALLSH "sh $opt{outdir}/$all_rank{$rank}/$opt{prefix}\_$i\_ROC.sh >& $opt{outdir}/$all_rank{$rank}/$opt{prefix}\_$i\_ROC.log \n";
+            #`sh $opt{outdir}/$all_rank{$rank}/$i\.$opt{prefix}\_ROC.sh > $opt{outdir}/$all_rank{$rank}/$i\.$opt{prefix}\_ROC.log`;
+        }
+    }else{
+        print "Must give a VS list!!\n";
+   }
+}
+close ALLSH;
+if($opt{notrun})
+{ exit ;}
+else{`sh $opt{outdir}/all_LDA.sh`;}

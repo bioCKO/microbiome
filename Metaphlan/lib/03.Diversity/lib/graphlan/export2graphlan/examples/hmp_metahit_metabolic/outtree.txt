@@ -1,0 +1,1094 @@
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="true">
+    <clade>
+      <clade>
+        <name>Human_Diseases</name>
+        <branch_length>1.0</branch_length>
+        <clade>
+          <name>Infectious_Diseases</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Staphylococcus_aureus_infection</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">39.6220867743</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Metabolic_Diseases</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Type_I_diabetes_mellitus</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">59.9783608389</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">A:Type I diabetes mellitus</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#24b22f</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#24b22f</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <name>Cellular_Processes</name>
+        <branch_length>1.0</branch_length>
+        <clade>
+          <name>Transport_and_Catabolism</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Peroxisome</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">60.7570760975</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Cell_Growth_and_Death</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Oocyte_meiosis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">42.6286451639</property>
+          </clade>
+          <clade>
+            <name>Cell_cycle_Caulobacter</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">173.521971094</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Cell_Motility</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Flagellar_assembly</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">106.442797057</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">B:Flagellar assembly</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#160d80</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#160d80</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Bacterial_chemotaxis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">122.272829652</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">C:Bacterial chemotaxis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1d11a8</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1d11a8</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <name>Genetic_Information_Processing</name>
+        <branch_length>1.0</branch_length>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Genetic Information Processing</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#ffea00</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Genetic Information Processing</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#ffea00</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">12</property>
+        <clade>
+          <name>Transcription</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>RNA_polymerase</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">136.001853616</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Folding_Sorting_and_Degradation</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Sulfur_relay_system</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">171.911540156</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">D:Sulfur relay system</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#180e8a</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#180e8a</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Protein_export</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">196.145702536</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">E:Protein export</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#150c79</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#150c79</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>RNA_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">123.034309663</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Translation</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Ribosome</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">220.0</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">F:Ribosome</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#120a66</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#120a66</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Aminoacyl_tRNA_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">194.316618246</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Replication_and_Repair</name>
+          <branch_length>1.0</branch_length>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Replication and Repair</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#ffea00</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">10</property>
+          <clade>
+            <name>Nucleotide_excision_repair</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">133.161643547</property>
+          </clade>
+          <clade>
+            <name>Base_excision_repair</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">157.094104268</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">G:Base excision repair</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2817e2</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2817e2</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Homologous_recombination</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">187.724329177</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">H:Homologous recombination</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1b0f98</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1b0f98</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>DNA_replication</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">172.120128618</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">I:DNA replication</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2213c2</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2213c2</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Mismatch_repair</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">190.159029122</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">J:Mismatch repair</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1c10a1</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1c10a1</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <name>Organismal_Systems</name>
+        <branch_length>1.0</branch_length>
+        <clade>
+          <name>Endocrine_System</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>PPAR_signaling_pathway</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">50.4658267365</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">K:PPAR signaling pathway</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#29cc36</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#29cc36</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Progesterone_mediated_oocyte_maturation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">49.6127549121</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Excretory_System</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Proximal_tubule_bicarbonate_reclamation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">53.6895401917</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">L:Proximal tubule bicarbonate reclamation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#27c234</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#27c234</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <name>Metabolism</name>
+        <branch_length>1.0</branch_length>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Metabolism</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#00ff80</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Metabolism</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#00ff80</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">12</property>
+        <clade>
+          <name>Carbohydrate_Metabolism</name>
+          <branch_length>1.0</branch_length>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Carbohydrate Metabolism</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#00ff80</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">10</property>
+          <clade>
+            <name>Propanoate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">124.346987297</property>
+          </clade>
+          <clade>
+            <name>Starch_and_sucrose_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">158.165787905</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">M:Starch and sucrose metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2515d3</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2515d3</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Fructose_and_mannose_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">172.78699496</property>
+          </clade>
+          <clade>
+            <name>Pentose_and_glucuronate_interconversions</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">133.339543821</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">N:Pentose and glucuronate interconversions</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1e11a9</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1e11a9</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Ascorbate_and_aldarate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">76.5735833861</property>
+          </clade>
+          <clade>
+            <name>Glyoxylate_and_dicarboxylate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">119.460587135</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">O:Glyoxylate and dicarboxylate metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2a18f1</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2a18f1</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Butanoate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">129.481694828</property>
+          </clade>
+          <clade>
+            <name>C5_Branched_dibasic_acid_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">181.542028272</property>
+          </clade>
+          <clade>
+            <name>Pentose_phosphate_pathway</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">188.660539777</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">P:Pentose phosphate pathway</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2716df</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2716df</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Galactose_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">152.53528026</property>
+          </clade>
+          <clade>
+            <name>Glycolysis_Gluconeogenesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">170.274136521</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Q:Glycolysis Gluconeogenesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#23ad2e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#23ad2e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Amino_sugar_and_nucleotide_sugar_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">170.613084336</property>
+          </clade>
+          <clade>
+            <name>Inositol_phosphate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">79.6064370176</property>
+          </clade>
+          <clade>
+            <name>Citrate_cycle_TCA_cycle_</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">157.446324876</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">R:Citrate cycle TCA cycle</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#28c735</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#28c735</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Pyruvate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">167.387976334</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Xenobiotics_Biodegradation_and_Metabolism</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Toluene_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">85.2565390362</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">S:Toluene degradation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1e9628</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1e9628</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Naphthalene_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">88.1512758724</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">T:Naphthalene degradation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1a8423</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1a8423</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Metabolism_of_xenobiotics_by_cytochrome_P450</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">52.8460008652</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">U:Metabolism of xenobiotics by cytochrome P450</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#28c635</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#28c635</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Bisphenol_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">90.4344783013</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">V:Bisphenol degradation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#197b21</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#197b21</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Nitrotoluene_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">73.7367769476</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">W:Nitrotoluene degradation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2917e8</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2917e8</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Drug_metabolism_cytochrome_P450</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">55.4954823308</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">X:Drug metabolism cytochrome P450</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#26be33</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#26be33</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Dioxin_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">64.9518888428</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Y:Dioxin degradation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#26bf33</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#26bf33</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Drug_metabolism_other_enzymes</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">136.722252271</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Z:Drug metabolism other enzymes</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#0f4913</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#0f4913</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Caprolactam_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">56.926253883</property>
+          </clade>
+          <clade>
+            <name>Benzoate_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">75.7607029486</property>
+          </clade>
+          <clade>
+            <name>Aminobenzoate_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">78.1418193291</property>
+          </clade>
+          <clade>
+            <name>Ethylbenzene_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">84.1077986184</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">a:Ethylbenzene degradation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1b8523</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1b8523</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Polycyclic_aromatic_hydrocarbon_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">79.9440466957</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">b:Polycyclic aromatic hydrocarbon degradation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#23ad2e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#23ad2e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Atrazine_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">69.3455604972</property>
+          </clade>
+          <clade>
+            <name>Chloroalkane_and_chloroalkene_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">102.697309213</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Nucleotide_Metabolism</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Purine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">151.689097046</property>
+          </clade>
+          <clade>
+            <name>Pyrimidine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">174.004331131</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">c:Pyrimidine metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2012b6</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2012b6</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Glycan_Biosynthesis_and_Metabolism</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Glycosphingolipid_biosynthesis_globo_series</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">72.9837413319</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">d:Glycosphingolipid biosynthesis globo series</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1e9728</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1e9728</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Glycosaminoglycan_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">87.1516266874</property>
+          </clade>
+          <clade>
+            <name>N_Glycan_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">54.4609698365</property>
+          </clade>
+          <clade>
+            <name>Lipopolysaccharide_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">148.284147219</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">e:Lipopolysaccharide biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2113bb</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2113bb</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Other_glycan_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">154.650202648</property>
+          </clade>
+          <clade>
+            <name>Glycosphingolipid_biosynthesis_ganglio_series</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">59.3587168134</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">f:Glycosphingolipid biosynthesis ganglio series</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#23b12f</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#23b12f</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Peptidoglycan_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">200.105921726</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">g:Peptidoglycan biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1d11a9</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1d11a9</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Metabolism_of_Cofactors_and_Vitamins</name>
+          <branch_length>1.0</branch_length>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Metabolism of Cofactors and Vitamins</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#00ff80</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">10</property>
+          <clade>
+            <name>Lipoic_acid_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">163.810004726</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">h:Lipoic acid metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1c8d26</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1c8d26</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Pantothenate_and_CoA_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">194.419620928</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">i:Pantothenate and CoA biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#170d81</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#170d81</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Thiamine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">193.700004727</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">j:Thiamine metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#170d83</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#170d83</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Folate_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">174.5306101</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">k:Folate biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1a0f97</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1a0f97</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Riboflavin_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">145.527311609</property>
+          </clade>
+          <clade>
+            <name>Biotin_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">174.666659712</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">l:Biotin metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2012b6</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2012b6</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Vitamin_B6_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">165.95574846</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">m:Vitamin B6 metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2415ce</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2415ce</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Ubiquinone_and_other_terpenoid_quinone_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">100.032760718</property>
+          </clade>
+          <clade>
+            <name>One_carbon_pool_by_folate</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">198.512190446</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">n:One carbon pool by folate</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#180e89</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#180e89</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Nicotinate_and_nicotinamide_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">162.817591491</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">o:Nicotinate and nicotinamide metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1c10a0</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1c10a0</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Porphyrin_and_chlorophyll_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">122.488272684</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">p:Porphyrin and chlorophyll metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2817e3</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2817e3</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Metabolism_of_Terpenoids_and_Polyketides</name>
+          <branch_length>1.0</branch_length>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Metabolism of Terpenoids and Polyketides</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#00ff80</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">10</property>
+          <clade>
+            <name>Limonene_and_pinene_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">88.9183366446</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">q:Limonene and pinene degradation</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1f9929</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1f9929</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Zeatin_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">126.20134692</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">r:Zeatin biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2616da</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2616da</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Geraniol_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">67.9685547772</property>
+          </clade>
+          <clade>
+            <name>Polyketide_sugar_unit_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">78.4686939922</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">s:Polyketide sugar unit biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1c8e26</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1c8e26</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Terpenoid_backbone_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">173.523604955</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">t:Terpenoid backbone biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1e11a9</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1e11a9</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Tetracycline_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">75.7895707508</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">u:Tetracycline biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1e9427</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1e9427</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Biosynthesis_of_Other_Secondary_Metabolites</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Novobiocin_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">54.650261527</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">v:Novobiocin biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#26c033</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#26c033</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Tropane_piperidine_and_pyridine_alkaloid_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">70.3345876514</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">w:Tropane piperidine and pyridine alkaloid biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#20a02b</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#20a02b</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Phenylpropanoid_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">51.4679585459</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">x:Phenylpropanoid biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#28c835</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#28c835</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Penicillin_and_cephalosporin_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">51.6237801786</property>
+          </clade>
+          <clade>
+            <name>Streptomycin_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">190.68714166</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">y:Streptomycin biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1c109e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1c109e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>beta_Lactam_resistance</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">56.0811715886</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Energy_Metabolism</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Methane_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">109.755953803</property>
+          </clade>
+          <clade>
+            <name>Sulfur_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">136.89927782</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">z:Sulfur metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2a18ed</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2a18ed</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Photosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">82.5710178473</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AA:Photosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1b8824</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1b8824</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Nitrogen_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">117.785000386</property>
+          </clade>
+          <clade>
+            <name>Carbon_fixation_pathways_in_prokaryotes</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">156.779153097</property>
+          </clade>
+          <clade>
+            <name>Oxidative_phosphorylation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">115.849956935</property>
+          </clade>
+          <clade>
+            <name>Carbon_fixation_in_photosynthetic_organisms</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">141.693778689</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AB:Carbon fixation in photosynthetic organisms</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#0d4212</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#0d4212</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Amino_Acid_Metabolism</name>
+          <branch_length>1.0</branch_length>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Amino Acid Metabolism</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#00ff80</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">10</property>
+          <clade>
+            <name>Cysteine_and_methionine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">166.870830537</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AC:Cysteine and methionine metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2515d6</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2515d6</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Phenylalanine_tyrosine_and_tryptophan_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">162.313941364</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AD:Phenylalanine tyrosine and tryptophan biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1b109c</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1b109c</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Phenylalanine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">81.4351069135</property>
+          </clade>
+          <clade>
+            <name>Histidine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">176.325005959</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AE:Histidine metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1b0f9a</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1b0f9a</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Tryptophan_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">69.3247564173</property>
+          </clade>
+          <clade>
+            <name>Tyrosine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">117.12021833</property>
+          </clade>
+          <clade>
+            <name>Glycine_serine_and_threonine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">156.423377853</property>
+          </clade>
+          <clade>
+            <name>Lysine_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">72.7977500081</property>
+          </clade>
+          <clade>
+            <name>Lysine_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">180.041465335</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AF:Lysine biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1e11ac</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1e11ac</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Valine_leucine_and_isoleucine_degradation</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">95.662007249</property>
+          </clade>
+          <clade>
+            <name>Valine_leucine_and_isoleucine_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">212.85757019</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AG:Valine leucine and isoleucine biosynthesis</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1d9327</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1d9327</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Arginine_and_proline_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">129.83347583</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AH:Arginine and proline metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2817e3</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2817e3</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Alanine_aspartate_and_glutamate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">184.682786507</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AI:Alanine aspartate and glutamate metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2c19fe</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2c19fe</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Lipid_Metabolism</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Linoleic_acid_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">75.6678067014</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AJ:Linoleic acid metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1d9227</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1d9227</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Synthesis_and_degradation_of_ketone_bodies</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">89.419531404</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AK:Synthesis and degradation of ketone bodies</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#22a92d</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#22a92d</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Fatty_acid_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">181.802580145</property>
+          </clade>
+          <clade>
+            <name>Primary_bile_acid_biosynthesis</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">34.0019997542</property>
+          </clade>
+          <clade>
+            <name>Sphingolipid_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">84.5961117537</property>
+          </clade>
+          <clade>
+            <name>Glycerophospholipid_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">128.314932928</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AL:Glycerophospholipid metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2717e1</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2717e1</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Glycerolipid_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">111.225299384</property>
+          </clade>
+          <clade>
+            <name>Biosynthesis_of_unsaturated_fatty_acids</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">82.3743610968</property>
+          </clade>
+          <clade>
+            <name>Fatty_acid_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">92.3132304078</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Metabolism_of_Other_Amino_Acids</name>
+          <branch_length>1.0</branch_length>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Metabolism of Other Amino Acids</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#00ff80</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">10</property>
+          <clade>
+            <name>Selenocompound_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">174.073590517</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AM:Selenocompound metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#22ab2e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#22ab2e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>D_Glutamine_and_D_glutamate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">217.69411546</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AN:D Glutamine and D glutamate metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1e11ae</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1e11ae</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>D_Alanine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">211.844086917</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AO:D Alanine metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#187620</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#187620</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Cyanoamino_acid_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">116.724329378</property>
+          </clade>
+          <clade>
+            <name>Taurine_and_hypotaurine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">106.087246046</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AP:Taurine and hypotaurine metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#197f22</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#197f22</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Glutathione_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">113.31271799</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AQ:Glutathione metabolism</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#22a82d</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#22a82d</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>beta_Alanine_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">97.0147037896</property>
+          </clade>
+          <clade>
+            <name>Phosphonate_and_phosphinate_metabolism</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">76.3549595975</property>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <name>Environmental_Information_Processing</name>
+        <branch_length>1.0</branch_length>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Environmental Information Processing</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#a52de0</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Environmental Information Processing</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#a52de0</property>
+        <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">12</property>
+        <clade>
+          <name>Membrane_Transport</name>
+          <branch_length>1.0</branch_length>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">Membrane Transport</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#a52de0</property>
+          <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">10</property>
+          <clade>
+            <name>Phosphotransferase_system_PTS_</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">137.035944476</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AR:Phosphotransferase system PTS</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#166f1e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#166f1e</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Bacterial_secretion_system</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">147.019917567</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AS:Bacterial secretion system</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#1f12b1</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#1f12b1</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>ABC_transporters</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">132.252958367</property>
+          </clade>
+        </clade>
+        <clade>
+          <name>Signal_Transduction</name>
+          <branch_length>1.0</branch_length>
+          <clade>
+            <name>Two_component_system</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">104.78398509</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AT:Two component system</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#2113bb</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#2113bb</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+          <clade>
+            <name>Phosphatidylinositol_signaling_system</name>
+            <branch_length>1.0</branch_length>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_size" ref="A:1">52.8079684964</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation" ref="A:1">AU:Phosphatidylinositol signaling system</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_background_color" ref="A:1">#27c534</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="clade_marker_color" ref="A:1">#27c534</property>
+            <property applies_to="clade" datatype="xsd:string" id_ref="annotation_font_size" ref="A:1">9</property>
+          </clade>
+        </clade>
+      </clade>
+    </clade>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="title" ref="A:1">Metabolic pathways</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="class_legend_marker_size" ref="A:1">1.5</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="class_legend_font_size" ref="A:1">10</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="branch_bracket_depth" ref="A:1">0.8</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="title_font_size" ref="A:1">15</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="clade_separation" ref="A:1">0.5</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="branch_bracket_width" ref="A:1">0.2</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="annotation_legend_font_size" ref="A:1">10</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="leg_keys" ref="A:1">HMP_._._METAHIT</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="leg_annotation_background_color" ref="A:1">._._._.</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="leg_annotation_background_edge_color" ref="A:1">._._._.</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="leg_clade_marker_color" ref="A:1">#29cc36_._._#2d19ff</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="leg_clade_marker_edge_width" ref="A:1">._._._.</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="leg_clade_marker_size" ref="A:1">40_._._40</property>
+    <property applies_to="phylogeny" datatype="xsd:string" id_ref="ignore_branch_len" ref="A:1">1</property>
+  </phylogeny>
+</phyloxml>

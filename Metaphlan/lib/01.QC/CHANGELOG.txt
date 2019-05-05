@@ -1,0 +1,20 @@
+Name: MetaGenomics.QC.v3.pl
+Description: script to QC
+
+Author(Browse the First Keywords by Alphabet):
+        JinHui Yu, yujinhui@novogene.com
+        JunRu Chen, chenjunru@novogene.com
+        XiaoHong Wang
+        XiaoMeng Wu, wuxiaomeng@novogene.com
+
+Version: v0.3.0, 2014-07-25, Wang Xiaohong
+         v0.3.1, 2014-09-02, Wu Xiaomeng change $chdir to project_dir/Shell/detail/01.DataClean
+         v0.3.2, 2014-09-10, modify sample mode, produce multi shell script in $shdir, sample.DataClean.sh..., IndexDB.sh, DataStat.sh
+         v0.3.3, 2015-02-02, delete triggerAgent, after Dataclean.sh is done, then DataStat.sh will be run.
+         V0.3.4, 2015-02-06, delete sample mode, add step0123, add vf for step012 and dvf option
+         v0.3.4, 2015-03-02, add the checking for rawdata pathway.
+         v0.3.7, 2015-03-07, add for nohost data in QC report
+         v3.0.0, 2015-07-10, the stable version
+                 2015-07-27, --read_len            input reads length,important for soapaligner.defult=150.
+                             --me_opts             the option value for --method ,soap defult is according to read_len.
+         v4.3.0, 2017-07-13, --me_opts             the option value for --method ,bowtie defult. 
