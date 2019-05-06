@@ -163,7 +163,7 @@ use lib "Perl-5.18.2/lib/perl5/site_perl/5.18.2"; #for SVG
 =head1 Example
 
  perl line_diagram.pl   infile >out.svg
- read more example at /ifs2/ANIMAL/GROUP/group004/liuwenbin/SVG/example/line/output/work.sh
+ read more example at SVG/example/line/output/work.sh
 
 =cut
 

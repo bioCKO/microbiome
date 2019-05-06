@@ -178,7 +178,7 @@
 
  perl line_diagram.pl   infile >out.svg
  perl line_diagram.pl infile --rankx "0:1" --ranky "0:2,3,4,5,6,7,8" --color darkcyan,deepskyblue,mediumspringgreen,lime,aqua,dodgerblue,forestgreen,seagreen,darkslategray,blue,firebrick,crimson,magenta,orangered,coral,hotpink --line '0.65,0;0.65,p1
- read more example at /ifs2/ANIMAL/GROUP/group004/liuwenbin/SVG/example/line/output/work.sh
+ read more example at SVG/example/line/output/work.sh
 
 =cut
 

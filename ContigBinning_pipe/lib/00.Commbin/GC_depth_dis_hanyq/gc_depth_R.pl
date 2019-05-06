@@ -28,7 +28,7 @@ Usage: perl $0 <in.gcdepth> <out.pdf>
 #################################################################################
 my ($infile,$outfile,$scaf_file) = @ARGV;#从命令行获取输入文件GC_depth.pos与输出文件GC_depth.pos.pdf
 #my $r_script = "/usr/bin/R";
-my $r_script = "/PUBLIC/software/public/System/R-2.15.3/bin/Rscript";
+my $r_script = "System/R-2.15.3/bin/Rscript";
 my $kmean_R = "kmer$$.R";#记录进程号，kmer30617.R
 open KR,">$kmean_R" || die$!;
 my $rfile=&make_kmean($infile,$outfile,$scaf_file);

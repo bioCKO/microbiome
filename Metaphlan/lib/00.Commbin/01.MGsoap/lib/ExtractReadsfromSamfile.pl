@@ -22,7 +22,7 @@ Note:
 	exit;
 }
 ######################################################################################################
-my $samtools="/PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V5.1/software/samtools/samtools-1.3/samtools";
+my $samtools="share/MetaGenome_pipeline/MetaGenome_pipeline_V5.1/software/samtools/samtools-1.3/samtools";
 my ( $reads1, $reads2, $samfile, $prefix);
 $reads1=shift;
 $reads2=shift;

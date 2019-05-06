@@ -10,11 +10,11 @@ GetOptions(\%opt,"rank:s","cluster_range:s","cover_cut:f","prefix:s","select:s",
     "shdir:s","subdir:s","pldir:s","top:i","add_num:i","seq_lim:f","wgs","lisdir:s","cover:f");
 #==================================================================================================================
 ## script pathway
-my $blastall = "/PUBLIC/software/public/Alignment/blast-2.2.26/bin/blastall";
-my $megablast = "/PUBLIC/software/public/Alignment/blast-2.2.26/bin/megablast";
+my $blastall = "Alignment/blast-2.2.26/bin/blastall";
+my $megablast = "Alignment/blast-2.2.26/bin/megablast";
 $blastall = $opt{megablast} ? "$megablast $opt{mega_opts}" : "$blastall -p blastn $opt{blast_opts}";
 #my $ntdb = ($opt{plasmdb} || "$Bin/plasmid20120315/plasmid20120315.fa");
-my $ntdb = ($opt{plasmdb} || "/PUBLIC/software/MICRO/share/MicroGenome_pipeline/MicroGenome_pipeline_v5.0/database/plasmid_database/20140417/plasmid20140417.fa");
+my $ntdb = ($opt{plasmdb} || "share/MicroGenome_pipeline/MicroGenome_pipeline_v5.0/database/plasmid_database/20140417/plasmid20140417.fa");
 foreach('extract_seq.pl','blast_parser.pl','stat_plasmid.pl','super_worker.pl','cut_seq.pl'){
     (-s "$Bin/Plasmid_analysis/$_") || die"error: can't find script $_ at $Bin, $!";
 }

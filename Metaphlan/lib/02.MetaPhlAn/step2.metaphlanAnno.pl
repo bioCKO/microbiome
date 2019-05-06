@@ -90,7 +90,7 @@ for s in \${samples}
 do
     if test -s $outdir/\${s}.bt2out
     then 
-    echo \"$Bin/lib/metaphlan.py --input_type bowtie2out $outdir/\${s}.bt2out >/TJPROJ1/MICRO/lindan/DevelopResearch/MetaPhlan/MetaPhlAnPipeline/example/example2/output/02.MetaPhlAn/profiled_samples/\${s}.txt\"    
+    echo \"$Bin/lib/metaphlan.py --input_type bowtie2out $outdir/\${s}.bt2out >DevelopResearch/MetaPhlan/MetaPhlAnPipeline/example/example2/output/02.MetaPhlAn/profiled_samples/\${s}.txt\"    
     else
         if test -f $outdir/\${s}.bt2out
         then

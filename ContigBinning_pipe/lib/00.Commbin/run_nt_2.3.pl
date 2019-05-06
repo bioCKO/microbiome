@@ -9,8 +9,8 @@ GetOptions(\%opt,"rank:s","cluster_range:s","cover_cut:f","prefix:s","select:s",
     "shdir:s","subdir:s","ntdir:s","top:i","add_num:i","seq_lim:f","wgs","lisdir:s");
 #==================================================================================================================
 ## script pathway
-my $blastall = "/PUBLIC/software/public/Alignment/blast-2.2.26/bin/blastall"; #SZ & HK,  "/opt/bio/ncbi/bin/blastall";#SZ
-my $megablast = "/PUBLIC/software/public/Alignment/blast-2.2.26/bin/megablast";#HK and SZ
+my $blastall = "Alignment/blast-2.2.26/bin/blastall"; #SZ & HK,  "/opt/bio/ncbi/bin/blastall";#SZ
+my $megablast = "Alignment/blast-2.2.26/bin/megablast";#HK and SZ
 $blastall = $opt{megablast} ? "$megablast $opt{mega_opts}" : "$blastall -p blastn $opt{blast_opts}";
 my $ntdb0 = "/PUBLIC/database/Common/NT/nt_20141019/nt";
 #my $ntdb0 = "/PUBLIC/database/Common/NT/nt.new";

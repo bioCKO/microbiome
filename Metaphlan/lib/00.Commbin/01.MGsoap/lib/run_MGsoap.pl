@@ -16,7 +16,7 @@ GetOptions(
 foreach('soap2.21','soap.coverage','2bwt-builder','super_worker.pl','line_diagram.pl','multi-process.pl'){
     (-s "$Bin/$_") || die"error: can't find script $_ at $Bin\n";
 }
-my $superwork_pl="/BJWORK/GR/wangxiaohong/MyPipeline/MetaGenomicsPipeline/MetaGenomics_pipeline_v0.1/lib/03.Assembly/02.Assembly/bin/super_worker.pl";
+my $superwork_pl="super_worker.pl";
 
 #==========================================================================================================
 (@ARGV==2 || @ARGV==3) || die "Name: run_MGsoap.pl

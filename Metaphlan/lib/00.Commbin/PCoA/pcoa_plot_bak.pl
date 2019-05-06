@@ -31,5 +31,5 @@ for my $i(0..$#sign){
     }
     close IN;
     close OUT;
-	`perl /PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V2.1/lib/04.Diversity/lib/PCoAclust.pl $outdir/$sign[$i]/BCD.$sign2[$i].xls $outdir/group.xls  $outdir/$sign[$i]/`;
+	`perl lib/04.Diversity/lib/PCoAclust.pl $outdir/$sign[$i]/BCD.$sign2[$i].xls $outdir/group.xls  $outdir/$sign[$i]/`;
 }

@@ -2,10 +2,10 @@
 use strict;
 use FindBin qw/$Bin/;
 use Cwd qw/abs_path/;
-use lib "/PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V2.2/lib/00.Commbin/";
+use lib "lib/00.Commbin/";
 use PATHWAY;
 use Getopt::Long;
-my $cfg = "/PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V2.2/bin/Pathway_cfg.txt";
+my $cfg = "bin/Pathway_cfg.txt";
 (-s $cfg) || die"error: can't find config file: $cfg, $!\n";
 my ($R0,$convert)=get_pathway($cfg,[qw(R CONVERT)]);
 my $T=1;

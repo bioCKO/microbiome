@@ -52,7 +52,7 @@ GetOptions(
     "LDA_options:s","list_options:s","all_options:s","top:i","group_col:s","help:s"
 );
 my $get2lefse="perl $Bin/get_lefse.pl ";
-my $format_input="python $lefse_root/format_input.py "; ###change python => /PUBLIC/software/public/System/Python2.76/Python-2.7.6/bin/python  by zhanghao 20180328
+my $format_input="python $lefse_root/format_input.py "; ###change python => System/Python2.76/Python-2.7.6/bin/python  by zhanghao 20180328
 my $run_lefse="python $lefse_root/run_lefse.py ";
 my $plot_res="python $lefse_root/plot_res.py ";
 my $heatmap="perl $Bin/heatmap/biomarker_heatmap.pl ";

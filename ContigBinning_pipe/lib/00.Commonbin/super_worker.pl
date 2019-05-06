@@ -283,7 +283,7 @@ $filter && mul_path($filter); ##COMM
 ##===  script file  ===##
 #my ($file_split_pl,$rewrite_pl,$qstat_pl,$shcontral_pl) = get_path("file_split","rewrite_pl","qstat_pl","sh_contral");#COMM sub3.4
 my $Bdir = "$Bin/qsub";
-(-d $Bdir) || ($Bdir = "/PROJ/MICRO/share/MicroGenome_pipeline/MicroGenome_pipeline_v5.0/lib/00.Commonbin/qsub");
+(-d $Bdir) || ($Bdir = "lib/00.Commonbin/qsub");
 my ($file_split_pl,$rewrite_pl,$qstat_pl,$shcontral_pl) =
 ("perl $Bdir/file_split.pl","perl $Bdir/rewrite.pl","perl $Bdir/qstat.pl","perl $Bdir/sh_contral.pl");
 $file_split_pl .= " -filter";

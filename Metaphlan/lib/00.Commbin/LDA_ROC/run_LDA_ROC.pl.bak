@@ -52,9 +52,9 @@ GetOptions(
     "LDA_options:s","list_options:s","all_options:s","top:i","group_col:s","help:s"
 );
 my $get2lefse="perl $Bin/get_lefse.pl ";
-my $format_input="/PUBLIC/software/public/System/Python2.76/Python-2.7.6/bin/python $lefse_root/format_input.py "; ###change python => /usr/bin/python2.6 by zhanghao 20180328
-my $run_lefse="/PUBLIC/software/public/System/Python2.76/Python-2.7.6/bin/python $lefse_root/run_lefse.py ";
-my $plot_res="/PUBLIC/software/public/System/Python2.76/Python-2.7.6/bin/python $lefse_root/plot_res.py ";
+my $format_input="System/Python2.76/Python-2.7.6/bin/python $lefse_root/format_input.py "; ###change python => /usr/bin/python2.6 by zhanghao 20180328
+my $run_lefse="System/Python2.76/Python-2.7.6/bin/python $lefse_root/run_lefse.py ";
+my $plot_res="System/Python2.76/Python-2.7.6/bin/python $lefse_root/plot_res.py ";
 my $heatmap="perl $Bin/heatmap/biomarker_heatmap.pl ";
 $opt{top} && ($heatmap .= " --top $opt{top}");
 $opt{group_col} && ($heatmap .= " --group_col $opt{group_col}");

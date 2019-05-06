@@ -53,7 +53,7 @@ if(! is.null(opt$headvar))
 		head_im_vars <- seq(from = var, to = 1, by = step)                       
 	}   
 }
-colfile<-"/PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V5.0/lib/00.Commbin/rf_roc/group.colorx.xls"
+colfile<-"lib/00.Commbin/rf_roc/group.colorx.xls"
 col<-read.table("colfile",sep=",")
 ####
 print (head_im_vars)
@@ -61,7 +61,7 @@ print (head_im_vars)
 library(randomForest)
 library(ggplot2)
 set.seed(999)
-source("/PUBLIC/software/MICRO/share/MetaGenome_pipeline/RandomFrest/randomforest.crossvalidation.last.r")
+source("share/MetaGenome_pipeline/RandomFrest/randomforest.crossvalidation.last.r")
 c_table <- read.table(infile,sep="\t",header=T)
 #c_table=read.table("result.xls", sep="\t", header=T);
 cv.fold=10

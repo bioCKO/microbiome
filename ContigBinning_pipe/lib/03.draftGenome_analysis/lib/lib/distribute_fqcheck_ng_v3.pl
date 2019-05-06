@@ -127,7 +127,7 @@ close RS;
 exit 0;
 
 sub find_rscript {
-	my $rscript = '/PUBLIC/software/public/System/R-2.15.3/bin/Rscript';
+	my $rscript = 'System/R-2.15.3/bin/Rscript';
 	$rscript = "env Rscript" unless (-e $rscript);
 	return $rscript;
 }

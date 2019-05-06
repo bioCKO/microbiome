@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 #use lib "/home/liuwenbin/system/pm";
-#use lib "/ifs2/ANIMAL/GROUP/group004/liuwenbin/system/pm";
+#use lib "system/pm";
 #use COMM qw(abs_path mul_path);
 use Getopt::Long;
 use PerlIO::gzip;

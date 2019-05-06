@@ -8,7 +8,7 @@ version: 1.0, Date:2014-08-08
 Connect: hanyuqiao\@novogene.cn
 Usage: perl get_scaffold_sequence.pl  <cluster_file/> <referance fatat file>
        --<cluster_file/>    this dir name is unique,can not change;in which there are files of scaffold IDs
-example£ºperl $0 /PROJ/MICRO/hanyuqiao/gc/mygc_test/06gc/cluster_file /PROJ/MICRO/microbial_genome/liyunke/201479/./02.Assembly/S28/fill/all.scafSeq.fna
+example£ºperl $0 /PROJ/MICRO/hanyuqiao/gc/mygc_test/06gc/cluster_file ./02.Assembly/S28/fill/all.scafSeq.fna
 
 " if(!$ARGV[1]);
 

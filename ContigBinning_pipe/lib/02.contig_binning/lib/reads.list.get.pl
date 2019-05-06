@@ -1,4 +1,4 @@
-my @files = glob "/TJPROJ1/MICRO/lindan/DevelopResearch/ContigBinning/Pipeline/Step3.Concoct/reads/*";
+my @files = glob "DevelopResearch/ContigBinning/Pipeline/Step3.Concoct/reads/*";
 
 my %sample2path;
 foreach(@files){

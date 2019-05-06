@@ -45,7 +45,7 @@ for my $i(0..$#sign){
 		}
         close IN;
 		close OUT;
-#	`perl /PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V2.1/lib/04.Diversity/lib/PCoAclust.pl $outdir/$hash{$sign[$i]}/BCD.xls $outdir/../group.xls $outdir/$hash{$sign[$i]}/`;
+#	`perl lib/04.Diversity/lib/PCoAclust.pl $outdir/$hash{$sign[$i]}/BCD.xls $outdir/../group.xls $outdir/$hash{$sign[$i]}/`;
 	   `perl $Bin/PCoAclust.pl $outdir/$hash{$sign[$i]}/BCD.xls $outdir/../group.xls  $outdir/$hash{$sign[$i]}/`;
 	   }else{
 	        (-d "$outdir/$sign[$i]") ||	(`mkdir "$outdir/$sign[$i]"`);
@@ -60,7 +60,7 @@ for my $i(0..$#sign){
 	    }
 	    close IN;
 	    close OUT;
-#	   `perl /PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V2.1/lib/04.Diversity/lib/PCoAclust.pl $outdir/$sign[$i]/BCD.xls $outdir/../group.xls  $outdir/$sign[$i]/`;
+#	   `perl lib/04.Diversity/lib/PCoAclust.pl $outdir/$sign[$i]/BCD.xls $outdir/../group.xls  $outdir/$sign[$i]/`;
 	   `perl $Bin/PCoAclust.pl $outdir/$sign[$i]/BCD.xls $outdir/../group.xls  $outdir/$sign[$i]/`;
        }
 }

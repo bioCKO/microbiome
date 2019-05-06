@@ -19,7 +19,7 @@ $opt{indir} || die "Usage perl $0 --indir <dir> --group group.list --rf rf.list 
     *--rank                 set analysis rank,such as f,g,s,ko,level1,og,aro,separation by comma 
     *--outdir 
     --n              the Threshold ,the sample's number of each group ,default 15\n";
-#my $R_script="/PUBLIC/software/public/System/R-3.2.1/bin/Rscript";
+#my $R_script="System/R-3.2.1/bin/Rscript";
 my $rf_r="$Bin/rf.main_modify.cagv2.R";
 my $get_lefse="perl $Bin/get_lefse.pl";
 my $tran="perl $Bin/Tran_table.pl";

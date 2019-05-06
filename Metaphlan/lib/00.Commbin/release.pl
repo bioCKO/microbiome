@@ -61,7 +61,7 @@ else
 ###jilu表格meta_release_rm_info.list
 
 
-open LIST ,">>  /PUBLIC/software/MICRO/share/MetaGenome_pipeline/meta_release_rm_info.list";
+open LIST ,">>  share/MetaGenome_pipeline/meta_release_rm_info.list";
 open MEM_LIST, ">> $mem_record_path/$res_path[3]_meta_release_rm_info.list";
 
 my $delivery_time = `date +%Y%m%d`;

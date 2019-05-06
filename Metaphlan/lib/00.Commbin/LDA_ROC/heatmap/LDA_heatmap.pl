@@ -20,7 +20,7 @@ Example:
 perl $0 otu_table.g.relative.mat --level g__
 perl $0 otu_table.g.relative.mat --level g__ --outprefix cluster.g --level_annotation g__p --group group.list \n";
 #==================================================================================
-my $R="/PUBLIC/software/public/System/R-3.1.0/R-3.1.0/bin/R";
+my $R="System/R-3.1.0/R-3.1.0/bin/R";
 #====================================
 my $infile = shift @ARGV;
 (-s $infile) || die $!;$infile= abs_path($infile);

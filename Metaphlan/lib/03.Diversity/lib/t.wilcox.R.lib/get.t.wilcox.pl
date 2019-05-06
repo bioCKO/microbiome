@@ -17,7 +17,7 @@ GetOptions(\%opt,"Vslist:s", "method:s","threshold:f", "infilepath:s", "group:s"
 --qopts					set super_work qsub options
 \n";
 
-my $super_worker = "perl /PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V3.2/lib/00.Commbin/super_worker.pl" ;
+my $super_worker = "perl share/16S_pipeline/16S_pipeline_V3.2/lib/00.Commbin/super_worker.pl" ;
 $opt{qopts} && ($super_worker .= " --qopts='$opt{qopts}'");
 #my $dir = getcwd;
 #$opt{outdir} ||= $dir;
@@ -29,19 +29,19 @@ for( qw(infilepath group outdir  tworksh)){
 open SH,">$opt{tworksh}" || die $!;
 if($opt{Vslist}){
     $opt{Vslist} = abs_path($opt{Vslist});
-    print SH "/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[0]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[1]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[2]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[3]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[4]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[5]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method} \& wait\n";
+    print SH "System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[0]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[1]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[2]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[3]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[4]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[5]  --group $opt{group} --outdir  $opt{outdir}  --Vslist $opt{Vslist} --method $opt{method} \& wait\n";
 }else{
-    print SH "/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[0]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[1]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[2]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[3]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[4]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
-/PUBLIC/software/public/System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[5]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\& wait\n";
+    print SH "System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[0]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[1]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[2]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[3]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[4]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\&
+System/R-2.15.3/bin/Rscript $Bin/ttest.main.R  --threshold $opt{threshold} --infilepath  $opt{infilepath}/$file_input[5]  --group $opt{group} --outdir  $opt{outdir} --method $opt{method}\& wait\n";
 }
 close SH;
 #my $splits = '\n\n';
@@ -65,4 +65,4 @@ if($opt{method} eq "t"){
 
 
 __END__
-#print SH "/PUBLIC/software/public/System/R-2.15.3/bin/Rscript ttest.main.R  --threshold 0.05 --infilepath  /TJPROJ1/MICRO/hanyuqiao/16s/NH150270_73_16sv34_20150504/109/03.Make_OTU/otu97/Relative  --group group.list --outdir  /TJPROJ1/MICRO/hanyuqiao/16s/test/t.test/output  --Vslist vs.list --method wilcox"
+#print SH "System/R-2.15.3/bin/Rscript ttest.main.R  --threshold 0.05 --infilepath  03.Make_OTU/otu97/Relative  --group group.list --outdir  t.test/output  --Vslist vs.list --method wilcox"

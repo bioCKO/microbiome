@@ -77,7 +77,7 @@ GetOptions("fsa|f=s"   =>\$o_fsa,
 usage() if($o_help || !$o_fsa || !@o_se);
 #modify by liuwenbin at 2012-7-17
 #my $circos = "perl $Bin/circos-0.52/bin/circos";
-my $circos = "perl /PUBLIC/software/public/Graphics/circos-0.64/bin/circos"; #modify by lsq at 20140529
+my $circos = "perl Graphics/circos-0.64/bin/circos"; #modify by lsq at 20140529
 my $dot = "/usr/bin/dot";
 if(-s $dot){
     my $change_svg = 'perl -ne \'/<svg width=\S+\s+height=\S+/ && ($_="<svg width=\"37in\" height=\"24in\"\n");print;\'';

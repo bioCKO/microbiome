@@ -116,7 +116,7 @@ if($binning_evalue_method =~ /1/){
 cd $outdir/step2.metabat.CheckM_eval
 mkdir metabat_bin1/;mkdir metabat_bin1/SCG; rm -rf metabat_bin1/SCG/*;     
 perl $Bin/metabat.bins.len.choose.pl $minClsSize $maxClsSize $outdir/step1.metabat_binning/metabat_bin1 $outdir/step2.metabat.CheckM_eval/metabat_bin1
-source /PUBLIC/software/MICRO/MetaBAT/activate.sh
+source MetaBAT/activate.sh
 checkm lineage_wf -f metabat_bin1/CheckM.txt -t 8 -x fa $outdir/step2.metabat.CheckM_eval/metabat_bin1 metabat_bin1/SCG
 perl $Bin/CheckM.choose.pl metabat_bin1/CheckM.txt $outdir/step1.metabat_binning/concoct_inputtable.tsv metabat_bin1/ metabat_choosebins/
 perl $Bin/CheckM_eval.stat_draw.pl $outdir/step2.metabat.CheckM_eval/CheckM.substantial_bin.stat.xls $outdir/step1.metabat_binning/concoct_inputtable.tsv $outdir/step2.metabat.CheckM_eval/metabat_choosebins/ $outdir/step2.metabat.CheckM_eval\n"); 

@@ -47,7 +47,7 @@ if(!file.exists(outdir)){
 
 groupnames<-unlist (strsplit(opt$vs,",|;",fixed=F))
 Pairs<-unlist(strsplit(opt$vs,";",fixed=T))
-source ("/PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V3.1/lib/00.Commbin/MetaStats/lib/MetaStats/ddaf3.R") ##
+source ("share/MetaGenome_pipeline/MetaGenome_pipeline_V3.1/lib/00.Commbin/MetaStats/lib/MetaStats/ddaf3.R") ##
 group<-read.table(group.file,sep="\t",header=F)
 #group.all<-group[,which(group[,2] %in% unlist(groupnames))==T]
 group.all<-group[which(group[,2] %in% groupnames),][,1]

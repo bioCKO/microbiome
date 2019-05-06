@@ -30,7 +30,7 @@ Usage: perl $0 <in.gcdepth> <out.pdf>
 #################################################################################
 my ($infile,$outfile) = @ARGV;
 #my $r_script = "/usr/bin/R";
-my $r_script = "/PUBLIC/software/public/System/R-2.15.3/bin/R";
+my $r_script = "System/R-2.15.3/bin/R";
 $clustf ||= (split/\//,$infile)[-1] . ".cluster";
 #my $kmean = "$Bin/kmeans.R";
 my @rank = split/:|,/,$rank;

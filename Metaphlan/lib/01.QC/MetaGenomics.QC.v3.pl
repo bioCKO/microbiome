@@ -48,8 +48,8 @@ if ( $alnP eq "bowtie" && !$alnopt  ) {
 
 ## get software pathway
 my ($readfq,$fqcheck,$soap,$soapindex,$bwa,$superl_work,$sh_contral,$samtools) = get_pathway("$Bin/../../bin/Pathway_cfg.txt",[qw(ReadFQ Fqcheck SOAP SOAPINDEX BWA SUPER_WORK SH_CONTRAL SAM)],$Bin,$lib);
-my $bowtie             = "/PUBLIC/software/public/bowtie2-2.2.4/bowtie2 ";
-my $bowtie_build       = "/PUBLIC/software/public/bowtie2-2.2.4/bowtie2-build ";
+my $bowtie             = "bowtie2-2.2.4/bowtie2 ";
+my $bowtie_build       = "bowtie2-2.2.4/bowtie2-build ";
 my $extractread        = "perl $Bin/lib/ExtractReadsfromSamfiles.pl";
 my $qcstat_fqcheck     = "perl $Bin/lib/MetaGenomics.fqcheck.v3.pl";
 my $distribute_fqcheck = "perl $Bin/lib/distribute_fqcheck.pl";

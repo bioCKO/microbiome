@@ -85,7 +85,7 @@ function ceil () {
 # =/Enable FP support ============== #
 
 
-COGSDB_DIR="/PUBLIC/software/MICRO/share/MetaGenome_pipeline/CONCOCT/CDD/Cog/";
+COGSDB_DIR="share/MetaGenome_pipeline/CONCOCT/CDD/Cog/";
 #COGSDB_DIR="/RRM/MICRO/MicroGenome/lindan/CDD";
 #COGSDB_DIR="/PUBLIC/database/RNA/CDD";
 # = Parameters to set ============== #
@@ -150,10 +150,10 @@ if [ $PARALLELIZE_FLAG -eq 1 ]; then
     startTime=`date +%s`
     rpsblastOutFmt="\"6 qseqid sseqid evalue pident score qstart qend sstart send length slen\""
 	
-    cat $FASTA_FILE | /PUBLIC/software/MICRO/share/MetaGenome_pipeline/CONCOCT/parallel --block $sizeChunksString --recstart '>' --pipe /PUBLIC/software/MICRO/ncbi-blast-2.3.0-plus/bin/rpsblast -outfmt $rpsblastOutFmt -max_target_seqs $NUMBER_OF_REFERENCE_MATCHES -evalue $EVALUE -db $COGSDB_DIR'/Cog' -num_threads $NUMBER_OF_THREADS  -query - > $fileName'.out' 
+    cat $FASTA_FILE | share/MetaGenome_pipeline/CONCOCT/parallel --block $sizeChunksString --recstart '>' --pipe ncbi-blast-2.3.0-plus/bin/rpsblast -outfmt $rpsblastOutFmt -max_target_seqs $NUMBER_OF_REFERENCE_MATCHES -evalue $EVALUE -db $COGSDB_DIR'/Cog' -num_threads $NUMBER_OF_THREADS  -query - > $fileName'.out' 
     echo "rpsblast using GNU parallel took $(expr `date +%s` - $startTime) seconds to generate $fileName.out from $FASTA_FILE"	
 else
     startTime=`date +%s`
-    /PUBLIC/software/MICRO/ncbi-blast-2.3.0-plus/bin/rpsblast -outfmt "6 qseqid sseqid evalue pident score qstart qend sstart send length slen" -max_target_seqs $NUMBER_OF_REFERENCE_MATCHES -evalue $EVALUE -query $FASTA_FILE -db $COGSDB_DIR'/Cog' -out $fileName'.out' -num_threads $NUMBER_OF_THREADS
+    ncbi-blast-2.3.0-plus/bin/rpsblast -outfmt "6 qseqid sseqid evalue pident score qstart qend sstart send length slen" -max_target_seqs $NUMBER_OF_REFERENCE_MATCHES -evalue $EVALUE -query $FASTA_FILE -db $COGSDB_DIR'/Cog' -out $fileName'.out' -num_threads $NUMBER_OF_THREADS
     echo "rpsblast took $(expr `date +%s` - $startTime) seconds to generate $fileName.out from $FASTA_FILE" 
 fi

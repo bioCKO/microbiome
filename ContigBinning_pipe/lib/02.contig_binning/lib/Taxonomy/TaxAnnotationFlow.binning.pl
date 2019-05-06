@@ -44,7 +44,7 @@ GetOptions(
 
 #get software pathway
 #use lib "$Bin/../00.Commbin";
-use lib "/PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/lib/00.Commbin";
+use lib "share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/lib/00.Commbin";
 my $lib = "$Bin";
 use PATHWAY;
 (-s "$Bin/Pathway_cfg.txt") || die"error: can't find config at $Bin, $!\n";

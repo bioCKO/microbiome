@@ -61,7 +61,7 @@ sub avg_sd{
 }
 sub T_test{
     my ($arr1,$arr2,$conf,$pair,$wilcox) = @_;
-    my $Rscript = "/PUBLIC/software/public/System/R-2.15.3/bin/Rscript";
+    my $Rscript = "System/R-2.15.3/bin/Rscript";
     my $pair_Ture = $pair ? "TRUE" : "FALSE";
     my $t = $wilcox ? 'wilcox' : 't';
     $conf ||= 0.95;

@@ -138,12 +138,12 @@ my $gene_num = "perl $Bin/SECONDARY/gene_num.pl";
 my $bar_diagram = "perl $Bin/SECONDARY/bar_diagram.pl";
 
 ### for prophage 
-my $prophage_seed = "/PUBLIC/software/public/System/Python-2.7.6/bin/python /PUBLIC/software/MICRO/microinstall/phiSpyNov11_v2.3/genbank_to_seed.py";
-my $prophage_phiSpy = "/PUBLIC/software/public/System/Python-2.7.6/bin/python /PUBLIC/software/MICRO/microinstall/phiSpyNov11_v2.3/phiSpy.py";
+my $prophage_seed = "System/Python-2.7.6/bin/python microinstall/phiSpyNov11_v2.3/genbank_to_seed.py";
+my $prophage_phiSpy = "System/Python-2.7.6/bin/python microinstall/phiSpyNov11_v2.3/phiSpy.py";
 my $part_seq_gene = "perl $Bin/Commonbin/part_seq_gene.pl";
 
 ##for crispr
-my $crispr = "perl /PUBLIC/software/MICRO/microinstall/CRISPRdigger_autoinstall_20151211/scripts/CRISPRdigger.pl";
+my $crispr = "perl microinstall/CRISPRdigger_autoinstall_20151211/scripts/CRISPRdigger.pl";
 my $crispr_dr = "perl $Bin/CRISPR/CRISPR_fill.pl";
 # ==============================================================================================================================
 ($opt{pep_list} && $opt{spe_type} && $opt{function} && !$opt{help}) || 
@@ -170,8 +170,8 @@ Usage: perl $0   --spe_type B --outdir 04.Genome_Function --shdir Detail --pep_l
         --t3ss_opt          [str]   default = '-m TTSS_STD-1.0.1.jar -t selective'
                                     -m: 
                                     TTSS_STD-1.0.1.jar is for standard; 
-                                    For animal: /PUBLIC/database/MICRO/T3SS/module/TTSS_ANIMAL-latest.jar
-                                    For plant: /PUBLIC/database/MICRO/T3SS/module/TTSS_PLANT-latest.jar
+                                    For animal: T3SS/module/TTSS_ANIMAL-latest.jar
+                                    For plant: T3SS/module/TTSS_PLANT-latest.jar
                                     -t: means cutoff
                                     cutoff=<cutoff_value> (The threshold, default cutoff=0.995),sensitive (cut    off=0.95),selective (cutoff=0.9999)
     [other options for gi]

@@ -27,12 +27,12 @@ my $scaftigs_profiling ="perl $Bin/lib/scaftigs_profiling.pl ";
 my $gene_profiling="perl $Bin/lib/GeneProfiling.pl ";
 my $gene_profiling_total="perl $Bin/lib/Gene_profiling_total.pl ";
 my $soapExtra="perl $Bin/lib/SoapExtra.pl ";
-#my $bowtie2="/PUBLIC/software/public/bowtie2-2.2.4/bowtie2 ";
-#my $bowtie_build= "/PUBLIC/software/public/bowtie2-2.2.4/bowtie2-build ";
+#my $bowtie2="bowtie2-2.2.4/bowtie2 ";
+#my $bowtie_build= "bowtie2-2.2.4/bowtie2-build ";
 my $samExtra="perl $Bin/lib/ExtractReadsfromSamfile.pl ";
 my $getlen="perl $Bin/lib/get_len_fa.pl ";
-#my $samtools="/TJPROJ1/MICRO/liuchen/software/samtools/samtools-1.3/samtools ";
-#my $samtools="/PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V4.3/software/samtools/samtools-1.3/samtools ";
+#my $samtools="software/samtools/samtools-1.3/samtools ";
+#my $samtools="share/MetaGenome_pipeline/MetaGenome_pipeline_V4.3/software/samtools/samtools-1.3/samtools ";
 my $makedepth="perl $Bin/lib/makedepth.pl ";
 ## get help information
 if($opt{help}){

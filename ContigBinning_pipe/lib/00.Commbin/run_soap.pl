@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use FindBin qw($Bin);
-#use lib '/ifs2/ANIMAL/GROUP/group004/liuwenbin/system/pm';
+#use lib 'system/pm';
 #use COMM qw(abs_path arr_path);
 sub abs_path{chomp(my $tem=`pwd`);($_[0]=~/^\//) ? $_[0] : "$tem/$_[0]";}
 sub arr_path{my @out;foreach(@_){push @out,abs_path($_);}@out;}

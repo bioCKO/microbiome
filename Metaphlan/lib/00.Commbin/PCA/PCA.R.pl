@@ -24,7 +24,7 @@ if($T){
 }
 
 my $file =<< "EOF";
-.libPaths('/PUBLIC/software/public/R/v3.0.3/lib64/R/library')
+.libPaths('R/v3.0.3/lib64/R/library')
 	require(FactoMineR)
 	require(ade4)
     require(cluster)
@@ -147,7 +147,7 @@ if(ncol==2){
         plot
 dev.off()	
 ######################### PCA plot with cluster ##########################
-.libPaths('/PUBLIC/software/public/System/R-3.2.1/lib64/R/library')
+.libPaths('System/R-3.2.1/lib64/R/library')
 length1=length(unique(as.character(groups\$V2)))
 if (length > length1){
     cairo_pdf(filename="$outdir/PCA12_with_cluster.pdf",height=10,width=12)
@@ -175,7 +175,7 @@ if (length > length1){
 EOF
 
 my $cor=<< "COR" ;
-.libPaths('/PUBLIC/software/public/R/v3.0.3/lib64/R/library')
+.libPaths('R/v3.0.3/lib64/R/library')
     library(FactoMineR)
 	library(ggplot2)
     library(grid)

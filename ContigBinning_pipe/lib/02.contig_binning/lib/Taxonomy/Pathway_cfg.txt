@@ -1,7 +1,7 @@
-Lib         == /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/lib
-Bin         == /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/bin
-Software    == /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/software
-Database    == /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/database
+Lib         == share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/lib
+Bin         == share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/bin
+Software    == share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/software
+Database    == share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/database
 
 ## 0) others
 QC_MAIN         = perl Lib/01.QC_Assembly/01.QC/MetaGenomics.QC.v3.pl
@@ -20,9 +20,9 @@ SH_CONTRAL      = perl Lib/00.Commbin/sh_contral.pl
 SVG_Lib         = Lib/00.Commbin/5.8.8
 Mail_Lib        = /home/chenjunru/perl5/lib/perl5/
 SVG2XXX         = Software/svg2xxx_release/svg2xxx 
-Rscript            = /PUBLIC/software/public/R/v3.0.3/lib64/R/bin/Rscript
-R                  = /PUBLIC/software/public/R/v3.0.3/lib64/R/bin/R
-R2                 = /PUBLIC/software/public/R/v3.0.3/lib64/R/bin/R
+Rscript            = R/v3.0.3/lib64/R/bin/Rscript
+R                  = R/v3.0.3/lib64/R/bin/R
+R2                 = R/v3.0.3/lib64/R/bin/R
 
 ## 1) QC, read_fq, fqcheck
 ReadFQ    =  Software/QC/readfq.v8_meta
@@ -38,41 +38,41 @@ SOAPDENOVO = Software/Assembly/SOAPdenovo-63mer
 SOAPDENOVO63M = Software/Assembly/SOAPdenovo-63mer
 SOAPDENOVO127M = Software/Assembly/SOAPdenovo-127mer
 SS         = Software/Assembly/ss.o
-KHMER     =  /PUBLIC/software/MICRO/khmer
+KHMER     =  khmer
 
 ## 3) UniqSeq
-USEARCH   = /PUBLIC/software/MICRO/Usearch/usearch7.0.1001_i86linux32
-USEARCHH  = /PUBLIC/software/MICRO/Usearch/usearch5.2.32_i86linux32
+USEARCH   = Usearch/usearch7.0.1001_i86linux32
+USEARCHH  = Usearch/usearch5.2.32_i86linux32
 
 ## 4) GenePredict
 UNIQ     = perl Lib/01.QC_Assembly/03.UniqSeq/Uniseq_v0.1.pl
 
 ## 5) Function
-ARDB = /PUBLIC/database/MICRO/ARDB/db/ardb_uniq.fa
+ARDB = ARDB/db/ardb_uniq.fa
 BLAST = Software/Function/blastall
-#CAZY = /PUBLIC/database/MICRO/CAZy/db/cazy.gbk.pep
+#CAZY = CAZy/db/cazy.gbk.pep
 #CAZY_LEN  = Database/CAZy/cazy.gbk.pep.len.info
 #CAZY_NAME = Database/CAZy/cazy.gbk.pep.namelist
 #CAZY_INFO = Database/CAZy/cazy.info
 #CAZY_CATA = Database/CAZy/cazy.catalog.info
-CAZY = /PUBLIC/database/MICRO/CAZy/20141020/db/CAZy.gbk.pep
+CAZY = CAZy/20141020/db/CAZy.gbk.pep
 CAZY_LEN  = Database/CAZy_20141126/cazy.gbk.pep.len.info
 CAZY_NAME = Database/CAZy_20141126/cazy.gbk.pep.namelist
 CAZY_INFO = Database/CAZy_20141126/cazy.info
 CAZY_CATA = Database/CAZy_20141126/cazy.catalog.info
-##EGGNOG = /PUBLIC/database/MICRO/eggNOGv3/procaryote_protein.fa
+##EGGNOG = eggNOGv3/procaryote_protein.fa
 ##NOG_FUN = Database/eggNOG/eggNOG.fun.txt
 ##NOG_LEN = Database/eggNOG/eggNOGv3.procaryote_protein.fa.len
 ##NOG_MAP = Database/eggNOG/procaryote.mapping.v3.txt
 ##NOG_CLS = Database/eggNOG/procaryote_funcat.new.txt
 ## eggNOGv4
-EGGNOG = /PUBLIC/database/MICRO/eggNOG/v4/eggnogv4.proteins.all.fa
+EGGNOG = eggNOG/v4/eggnogv4.proteins.all.fa
 NOG_FUN = Database/eggNOGv4/eggNOG.fun.txt
 NOG_LEN = Database/eggNOGv4/eggNOGv4.procaryote_protein.fa.len
 NOG_MAP = Database/eggNOGv4/procaryote.mapping.v4.txt
 NOG_CLS = Database/eggNOGv4/eggnogv4.procaryote_funcat.new.txt
 
-KEGG = /BJPROJ/GR/MICRO/metagenomics/database/KEGG58/data/kegg_micro_clean.fa 
+KEGG = metagenomics/database/KEGG58/data/kegg_micro_clean.fa 
 KEGG_GENE = Database/KEGG/gene.info
 KEGG_LEN  = Database/KEGG/kegg_micro_clean.fa.newname.len
 KEGG_KO  =  Database/KEGG/ko
@@ -87,12 +87,12 @@ METABOLISM = Database/KEGG/Metabolism.koID.list
 #NAMES     =  Database/NCBI/names.dmp
 #NODES     = Database/NCBI/nodes.dmp
 #MicroNT = Database/MicroNT/AFVB.nt.fa
-#GI2TAXID   = /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V4.1/database/MicroNR_20161105/gi_taxid_prot.dmp
-#NAMES     = /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V4.1/database/MicroNR_20161105/names.dmp
-#NODES     = /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V4.1/database/MicroNR_20161105/nodes.dmp
-GI2TAXID   = /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/database/MicroNT_20141127/gi_taxid_nucl.dmp 
-NAMES      = /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/database/MicroNT_20141127/names.dmp
-NODES      = /PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/database/MicroNT_20141127/nodes.dmp 
+#GI2TAXID   = share/MetaGenome_pipeline/MetaGenome_pipeline_V4.1/database/MicroNR_20161105/gi_taxid_prot.dmp
+#NAMES     = share/MetaGenome_pipeline/MetaGenome_pipeline_V4.1/database/MicroNR_20161105/names.dmp
+#NODES     = share/MetaGenome_pipeline/MetaGenome_pipeline_V4.1/database/MicroNR_20161105/nodes.dmp
+GI2TAXID   = share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/database/MicroNT_20141127/gi_taxid_nucl.dmp 
+NAMES      = share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/database/MicroNT_20141127/names.dmp
+NODES      = share/MetaGenome_pipeline/MetaGenome_pipeline_V2.2/database/MicroNT_20141127/nodes.dmp 
 MicroNT   = Database/AFVB/Filter.AFVB.nt.fa
 
 ## 7) Advanced Analysis
@@ -106,5 +106,5 @@ GET_TABLE_HEAD2    = perl Lib/00.Commbin/top10/get_table_head2.pl
 BAR_DIAGRAM        = perl Lib/00.Commbin/top10/bar_diagram.pl
 DRAW_TREE          = perl Lib/00.Commbin/cluster/draw_tree.pl
 TREE               = perl Lib/00.Commbin/cluster/cluster.pl -BC
-LEFSE              = /PUBLIC/software/MICRO/lefse/nsegata-lefse-1cd4f0f8e6cf
+LEFSE              = lefse/nsegata-lefse-1cd4f0f8e6cf
 CONVERT            = /usr/bin/convert

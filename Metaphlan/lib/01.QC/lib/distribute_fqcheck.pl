@@ -77,7 +77,7 @@ system "/usr/bin/convert ps:$out.qual.ps $out.qual.png";
 unlink "$out.qual", "$out.qual.tmp", "$out.qual.ps";
 
 sub find_gnuplot {
-	my $gnuplot = "/PUBLIC/software/public/Graphics/gnuplot-4.6.5/bin/gnuplot";
+	my $gnuplot = "Graphics/gnuplot-4.6.5/bin/gnuplot";
 	$gnuplot = "gnuplot" unless (-e $gnuplot);
 	return $gnuplot;
 }

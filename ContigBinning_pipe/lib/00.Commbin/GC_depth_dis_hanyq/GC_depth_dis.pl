@@ -26,7 +26,7 @@ Usage: perl GC_depth_dis.pl <ref.fa> <cover_depf>
     --cluster <num>     dot clusert number, default=5\n\n
 
 Needed perl files in your work dir:GC_depth_dis.pl gc_depth_R.pl  get_scaffold_sequence.pl 
-Example: perl GC_depth_dis.pl /PROJ/MICRO/microbial_genome/liyunke/201479/./02.Assembly/S28/fill/all.scafSeq.fna  /PROJ/MICRO/microbial_genome/liyunke/201479/./02.Assembly/S28/evaluate/02.Coverage/soap.coverage.depthsingle   --gc_range 0,100 --dep_cut 400 
+Example: perl GC_depth_dis.pl ./02.Assembly/S28/fill/all.scafSeq.fna  ./02.Assembly/S28/evaluate/02.Coverage/soap.coverage.depthsingle   --gc_range 0,100 --dep_cut 400 
 \n\n ";
 
 ##=========================================================================================

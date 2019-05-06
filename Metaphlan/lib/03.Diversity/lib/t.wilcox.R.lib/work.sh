@@ -1,2 +1,2 @@
-perl /PUBLIC/software/MICRO/share/16S_pipeline/16S_pipeline_V3.2/lib/05.Statistic/lib/t.wilcox.R.lib/get.t.wilcox.pl --threshold 0.05 --infilepath  /TJPROJ1/MICRO/hanyuqiao/16s/NH150270_73_16sv34_20150504/109/03.Make_OTU/otu97/Relative  --group group.list --outdir  /TJPROJ1/MICRO/hanyuqiao/16s/test/t.test/output  --Vslist vs.list --method t
-#perl get.t.wilcox.pl --threshold 0.05 --infilepath  /TJPROJ1/MICRO/hanyuqiao/16s/NH150270_73_16sv34_20150504/109/03.Make_OTU/otu97/Relative  --group group.list --outdir  /TJPROJ1/MICRO/hanyuqiao/16s/test/t.test/output  --Vslist vs.list --method wilcox
+perl share/16S_pipeline/16S_pipeline_V3.2/lib/05.Statistic/lib/t.wilcox.R.lib/get.t.wilcox.pl --threshold 0.05 --infilepath  03.Make_OTU/otu97/Relative  --group group.list --outdir  t.test/output  --Vslist vs.list --method t
+#perl get.t.wilcox.pl --threshold 0.05 --infilepath  03.Make_OTU/otu97/Relative  --group group.list --outdir  t.test/output  --Vslist vs.list --method wilcox

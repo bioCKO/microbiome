@@ -14,8 +14,8 @@
 =head1 Description
 	
 	l|lst|list (file) input Sample png list. eg:
-		/PROJ/MICRO/MetaGenome/01.DataClean/t/t_300.base.png
-        /PROJ/MICRO/MetaGenome/01.DataClean/t/t_300.qual.png
+		01.DataClean/t/t_300.base.png
+        01.DataClean/t/t_300.qual.png
 		t and s are Sample name;
 	o|dir (str) output dir of report.(default : .)
 	q  (file)  QCstat for all sample(Interior)

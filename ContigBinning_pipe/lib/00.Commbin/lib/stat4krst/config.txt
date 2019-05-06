@@ -3,8 +3,8 @@
 #####################
 
 DIR_PAC : "DIR_Bin";
-DIR_SoftPub : "/PUBLIC/software/public";
-DIR_SoftMicro : "/PUBLIC/software/MICRO";
+DIR_SoftPub : "public";
+DIR_SoftMicro : "MICRO";
 
 ##common software
 #software

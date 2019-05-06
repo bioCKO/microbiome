@@ -15,13 +15,13 @@ Version: 1.0  Date: 2017-06-08
 Usage:perl $0 --indir indir/ --Rinfo Rinfo --help
 	--indir*    [str]   must set
 	--Rinfo*	[str]   default=indir/Rinfo.list
-	--outdir	[str]   default=/PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V4.2/lib/02.Assembly/assembly_data_record \n";
+	--outdir	[str]   default=/lib/02.Assembly/assembly_data_record \n";
 
 my $indir=abs_path($opt{indir});
 my $analysis=$1 if($indir=~/MICRO\/(\w+)\//);
 my $trans="perl $Bin/../05.Function/lib/CARD/lib/tran_tab.pl";
 
-$opt{outdir} ||="/PUBLIC/software/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V4.2/lib/02.Assembly/assembly_data_record";
+$opt{outdir} ||="/lib/02.Assembly/assembly_data_record";
 my $outdir=abs_path($opt{outdir});
 (-d $outdir) || mkdir "$outdir";
 $opt{Rinfo} ||="$indir/Rinfo.list"; 

@@ -60,7 +60,7 @@ For metaphlan analysis : QC, MetaPhlAn TaxAnno, Diversity analysis
     3.When you already got the cleandata, you can set --reads_list to run step2 directly. similarly, if you already got the [k p c o f g s]tax anno abundance files, you can set the directory of these files with the parameter --relative_dir and run step3 directly.
     
 =head1 Example
-    perl Metagenome_pileline.pl --data_list sample.cfg.txt --read_len 150 --group group.list --lefse_vs lefse.list --host /BJPROJ/GR/share/medinfo.00database/genome/human/hg19/hg19.fa --outdir . --shdir Shell 
+    perl Metagenome_pileline.pl --data_list sample.cfg.txt --read_len 150 --group group.list --lefse_vs lefse.list --host genome/human/hg19/hg19.fa --outdir . --shdir Shell 
    perl Metagenome_pileline.pl --step23 --reads_list reads.list --mf mf.list -lefse_vs lefse.list --outdir step23 --shdir Shell
    perl Metagenome_pileline.pl --step 3 --relative_dir relative_dir_path --mf mf.list -lefse_vslefse.list --outdir step3 --shdir Shell 
 =cut

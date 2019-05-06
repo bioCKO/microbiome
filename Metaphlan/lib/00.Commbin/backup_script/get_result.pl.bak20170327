@@ -36,7 +36,7 @@ Options:
       --notrun                only write the shell script, but not run
       --locate                run md5.sh locate, not qusb
 Example:
-    perl $0 --indir /TJPROJ1/MICRO/chenjunru/metagenome/MetaV2.2_Test/Host/ --result ./ \n";
+    perl $0 --indir Host/ --result ./ \n";
 
 ##==Basic ==
 my ($indir,$result);
